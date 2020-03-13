@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_spot_list_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/spotList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="lsitSpot"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+         <!-- <argument
+            android:name="name"
+            app:argType="String" /> -->
+
+    </FrameLayout>
+
+         

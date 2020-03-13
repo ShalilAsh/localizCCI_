@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.univ_amu.food_scanner.test">
+
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="29" />
+
+    <application android:debuggable="true" >
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="androidx.test.runner.AndroidJUnitRunner"
+                     android:targetPackage="com.univ_amu.food_scanner"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for com.univ_amu.food_scanner"/>
+</manifest>

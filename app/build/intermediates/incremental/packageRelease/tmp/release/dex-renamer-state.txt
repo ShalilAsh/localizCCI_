@@ -1,0 +1,4 @@
+#Mon Mar 09 16:00:44 CET 2020
+base.0=/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
