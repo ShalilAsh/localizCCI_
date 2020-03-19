@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/categoryList">
+
+    <fragment
+        android:id="@+id/categoryList"
+        android:name="com.univ_amu.localizcci.ui.CategoryListFragment"
+        android:label="@string/localizcci">
+
+
+        <action
+            android:id="@+id/action_categoryList_to_spotList"
+            app:destination="@id/spotList" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/spotList"
+        android:name="com.univ_amu.localizcci.ui.SpotListFragment"
+        android:label="@string/localizcci" >
+        <argument
+            android:name="id"
+            app:argType= "integer"/>
+
+        <action
+            android:id="@+id/action_spotList_to_spot"
+            app:destination="@id/spot" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/spot"
+        android:name="com.univ_amu.localizcci.ui.SpotFragment"
+        android:label="@string/localizcci" >
+
+        <argument
+            android:name="id"
+            app:argType= "integer"/>
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_spot.xml",
+        "source": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/res/layout/fragment_spot.xml"
+    },
+    {
+        "merged": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_category_list.xml",
+        "source": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/res/layout/fragment_category_list.xml"
+    },
+    {
+        "merged": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/category_description.xml",
+        "source": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/res/layout/category_description.xml"
+    },
+    {
+        "merged": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/category_item.xml",
+        "source": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/res/layout/category_item.xml"
+    },
+    {
+        "merged": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_spot_list.xml",
+        "source": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/res/layout/fragment_spot_list.xml"
+    },
+    {
+        "merged": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/spot_description.xml",
+        "source": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/res/layout/spot_description.xml"
+    },
+    {
+        "merged": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/spot_item.xml",
+        "source": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/res/layout/spot_item.xml"
+    },
+    {
+        "merged": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_category.xml",
+        "source": "/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/res/layout/fragment_category.xml"
+    }
+]

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="viewHolder"
+            type="com.univ_amu.localizcci.ui.CategoryListAdapter.ViewHolder" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="@{viewHolder::onClick}">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingTop="3dp"
+            android:background="@android:color/holo_orange_light"
+            android:padding="15dp" >
+
+            <ImageView
+                android:id="@+id/imgcat"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="0.11"
+                android:paddingEnd="@android:dimen/app_icon_size"
+                android:scaleType="centerCrop"
+                android:src="@{viewHolder.category.imgid}" />
+
+            <TextView
+                android:text="@{viewHolder.category.name}"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imgcat"
+                android:textColor="@android:color/black"
+                android:id="@+id/category_name"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:text="@{viewHolder.category.description}"
+                android:id="@+id/category_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/category_name"
+                android:layout_toEndOf="@+id/imgcat"
+                android:layout_toRightOf="@+id/imgcat"
+                android:layout_weight = "1"
+                android:paddingLeft="5dp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</layout>

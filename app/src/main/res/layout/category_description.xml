@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="category"
+            type="com.univ_amu.localizcci.data.Category" />
+    </data>
+    <merge>
+
+        <ImageView
+            android:src="@{category.imgid}"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:layout_weight = "0.11"
+            android:layout_marginEnd="5dp"
+            android:paddingEnd="@android:dimen/app_icon_size"
+            android:id="@+id/imgcat"
+            />
+
+        <TextView
+            android:text="@{category.name}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imgcat"
+            android:textColor="@android:color/black"
+            android:id="@+id/category_name"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:text="@{category.description}"
+            android:id="@+id/category_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/category_name"
+            android:layout_toEndOf="@+id/imgcat"
+            android:layout_toRightOf="@+id/imgcat"
+            android:layout_weight = "1"
+            android:paddingLeft="5dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+
+
+    </merge>
+</layout>
