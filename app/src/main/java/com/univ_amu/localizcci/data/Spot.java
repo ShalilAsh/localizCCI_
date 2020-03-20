@@ -10,24 +10,30 @@ import androidx.room.PrimaryKey;
 import java.util.Date;
 
 
-@Entity (
+@Entity ( tableName = "Spot",
+        primaryKeys = { "id"},
         foreignKeys = {
 @ForeignKey(
         entity = Category.class,
-        parentColumns = "categoryId",
+        parentColumns = "id",
         childColumns = "categoryId",
         onDelete = ForeignKey.CASCADE,
         onUpdate = ForeignKey.CASCADE)})
+
 
 public class Spot {
 
     @NonNull
     public int categoryId;
-    @PrimaryKey
-    @NonNull
+
+    //@PrimaryKey(autoGenerate = true)
     public int id;
+
     @NonNull
-    public String name;
+    @ColumnInfo(name = "spot_name")
+    private String name;
+
+    @ColumnInfo(name = "spot_date")
     public Date date;
 
 
@@ -42,4 +48,11 @@ public class Spot {
     public int getCategoryId() {
         return categoryId;
     }
+
+    public int getId() {return id;}
+
+    @NonNull
+    public String getName() {return name;}
+
+    public Date getDate() {return date;}
 }

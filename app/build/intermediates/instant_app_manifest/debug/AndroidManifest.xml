@@ -21,7 +21,6 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/localizcci"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity

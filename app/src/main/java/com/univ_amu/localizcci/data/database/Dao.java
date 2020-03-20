@@ -17,7 +17,7 @@ public interface Dao {
     @Query("SELECT * FROM Category ")
     LiveData <List<Category>> getCategories();
 
-    @Query("SELECT * FROM Spot ORDER BY date DESC")
+    @Query("SELECT * FROM Spot ")
     LiveData <List<Spot>> getSpots();
 
     @Query("SELECT * FROM Spot  WHERE categoryId = :categoryId")

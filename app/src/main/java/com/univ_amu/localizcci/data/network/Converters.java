@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class Converters {
+public class  Converters {
 
     public static Spot getSpot(NetworkSpot spot) {
         /* TODO */
@@ -15,35 +15,17 @@ public class Converters {
         return spot1;
     }
 
+    public static List<Spot> getSpots(List <NetworkSpot> spots) {
+        List<Spot> result = new ArrayList<>();
 
-/*
-    public static List<Spot> getSpots(int categoryId) {
-        List<Spot> spots = new ArrayList<>();
+        for (NetworkSpot spot : spots) {
 
-        for (NetworkCategory category : category.categoryId) {
+        result.add(new Spot(spot.categoryId, spot.id,spot.name,new Date()));
 
-            quantities.add(new Quantity(food.code,
-                    quantity.name,
-                    quantity.rank,
-                    quantity.level,
-                    quantity.quantity,
-                    quantity.unit));
-        }
-
-        return quantities;
-
-    }
-
-    public static List<Food> getFoods(List<NetworkFood> foods) {
-
-        List<Food> result = new ArrayList<>();
-        for (NetworkFood food : foods) {
-
-            result.add(new Food(food.code, food.name, food.brands, food.nutriscore, new Date()));
         }
         return result;
+    }
 
-    } */
 
 }
 
