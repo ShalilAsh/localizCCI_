@@ -8,7 +8,7 @@ import androidx.room.TypeConverters;
 import com.univ_amu.localizcci.data.Category;
 import com.univ_amu.localizcci.data.Spot;
 
-@androidx.room.Database(entities = {Category.class ,Spot.class}, version = 1, exportSchema = false)
+@androidx.room.Database(entities = {Category.class ,Spot.class}, version = 2, exportSchema = false)
 @TypeConverters({Converters.class})
 public abstract class Database extends RoomDatabase {
 

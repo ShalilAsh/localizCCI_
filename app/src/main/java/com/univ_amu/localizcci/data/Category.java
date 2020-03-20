@@ -9,28 +9,27 @@ import androidx.room.PrimaryKey;
 
 import com.univ_amu.localizcci.R;
 
-@Entity(
+@Entity/*(
         tableName = "Category",
         indices = {@Index(value = {"name", "description"},
-        unique = true)})
+        unique = true)})*/
 
-// @Entity
 public class Category {
     @PrimaryKey
-    public int id;
+    public Integer id;
 
     @NonNull
-    @ColumnInfo(name = "name")
+    //@ColumnInfo(name = "name")
     public  String name;
 
     @NonNull
-    @ColumnInfo(name = "description")
+    //@ColumnInfo(name = "description")
     public String description;
 
-    @ColumnInfo(name = "imgid")
+    //@ColumnInfo(name = "imgid")
     public int imgid;
 
-    public Category(int id ,String name, String description, int  imgid) {
+    public Category(Integer id ,String name, String description, int  imgid) {
         this.id = id;
         this.name = name;
         this.description = description;

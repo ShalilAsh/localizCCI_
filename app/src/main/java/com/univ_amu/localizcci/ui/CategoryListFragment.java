@@ -1,6 +1,7 @@
 package com.univ_amu.localizcci.ui;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,6 +40,8 @@ public class CategoryListFragment extends Fragment {
 
         binding.categoryList.addItemDecoration(new DividerItemDecoration(getContext(), LinearLayoutManager.VERTICAL));
         model.categories().observe(this, list -> {
+            //Log.i();
+
             categoryListAdapter.submitList(list);
             binding.categoryList.computeVerticalScrollExtent();
         });

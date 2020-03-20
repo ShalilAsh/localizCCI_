@@ -24,20 +24,19 @@ import java.util.Date;
 public class Spot {
 
     @NonNull
-    public int categoryId;
+    public Integer categoryId;
 
-    //@PrimaryKey(autoGenerate = true)
-    public int id;
+    public Integer id;
 
     @NonNull
-    @ColumnInfo(name = "spot_name")
+    //@ColumnInfo(name = "spot_name")
     private String name;
 
-    @ColumnInfo(name = "spot_date")
+    //@ColumnInfo(name = "spot_date")
     public Date date;
 
 
-    public Spot( int categoryId,int id, String name, Date date){
+    public Spot( Integer categoryId,Integer id, String name, Date date){
 
         this.categoryId= categoryId;
         this.id = id;

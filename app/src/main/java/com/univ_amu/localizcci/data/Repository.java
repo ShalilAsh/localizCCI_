@@ -53,7 +53,7 @@ public class Repository {
     }
 
     public void insertSpot(Spot spot, int categoryId) {
-        executor.execute(() -> dao().insertSpot(spot, categoryId));
+        executor.execute(() -> dao().insertSpot(spot));
     }
 
     public void insertCategories(List<Category> categories) {

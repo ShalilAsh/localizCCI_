@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
@@ -15,17 +15,56 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/debugUnitTest/annotationProcessors.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/debugUnitTest/annotationProcessors.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/sPQin9z4JoNur1894NjRdEm0mAM=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/sPQin9z4JoNur1894NjRdEm0mAM=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/Category.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/Category.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/Repository.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/Repository.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/Spot.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/Spot.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao_Impl$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao_Impl$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao_Impl$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao_Impl$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao_Impl$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao_Impl$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao_Impl$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao_Impl$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao_Impl$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao_Impl$5.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao_Impl$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao_Impl$6.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao_Impl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Dao_Impl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Database.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Database.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Database_Impl$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Database_Impl$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Database_Impl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/data/database/Database_Impl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/databinding/CategoryDescriptionBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/databinding/CategoryDescriptionBindingImpl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/databinding/CategoryItemBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/databinding/CategoryItemBindingImpl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/databinding/FragmentCategoryBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/databinding/FragmentCategoryBindingImpl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/databinding/SpotDescriptionBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/databinding/SpotDescriptionBindingImpl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/databinding/SpotItemBindingImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/databinding/SpotItemBindingImpl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/ui/CategoryListAdapter$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/ui/CategoryListAdapter$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/ui/CategoryListAdapter$ViewHolder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/ui/CategoryListAdapter$ViewHolder.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/ui/CategoryListAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/ui/CategoryListAdapter.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/ui/SpotFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/ui/SpotFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/ui/SpotListAdapter$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/ui/SpotListAdapter$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/ui/SpotListAdapter$ViewHolder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/ui/SpotListAdapter$ViewHolder.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/ui/SpotListFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/ui/SpotListFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/viewmodels/CategoryListViewModel.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/viewmodels/CategoryListViewModel.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/viewmodels/SpotListViewModel.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/viewmodels/SpotListViewModel.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/viewmodels/SpotViewModel.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/univ_amu/localizcci/viewmodels/SpotViewModel.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Spot.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Spot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/database/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/database/Dao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/network/Converters.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/network/Converters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/ui/CategoryListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/ui/CategoryListFragment.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/network/Converters.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,8 +100,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Category.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="142">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/database/Dao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="29" column="51" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,11 +126,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Spot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/database/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -91,8 +156,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Repository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="227">
+              <caret line="67" column="67" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/ui/CategoryListAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-172">
+              <caret line="45" column="53" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/ui/CategoryListFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,7 +242,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/navigation/navigation.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/ui/SpotListAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/ui/SpotListFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/ui/CategoryListFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/viewmodels/SpotListViewModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/category_item.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/spot_item.xml" />
@@ -162,13 +250,14 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_category_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/ui/CategoryListAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/viewmodels/CategoryListViewModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/database/Database.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Repository.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Category.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/database/Dao.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Spot.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/network/Converters.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Category.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Spot.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/database/Dao.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Repository.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/database/Database.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/ui/CategoryListFragment.java" />
       </list>
     </option>
   </component>
@@ -214,11 +303,6 @@
             <path>
               <item name="LocalizCCI" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="LocalizCCI" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
@@ -247,14 +331,15 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="localizcci" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LocalizCCI" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="localizcci" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="viewmodels" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LocalizCCI" type="1abcf292:AndroidViewProjectNode" />
@@ -302,7 +387,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.com.univ_amu.localizcci.mipmap-xhdpi in app">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -397,25 +482,17 @@
       <option name="project" value="LOCAL" />
       <updated>1584622086692</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Localiz_BD 0.2">
+      <created>1584708796264</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584708796264</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_univ_amu_localizcci_mipmap-xhdpi_in_app - 2020.02.21 at 14h 37m 29s.xml">
-      <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="com_univ_amu_localizcci_mipmap-xhdpi_in_app - 2020.03.04 at 11h 16m 14s.xml">
-      <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="com_univ_amu_localizcci_mipmap-xhdpi_in_app - 2020.03.04 at 14h 14m 20s.xml">
-      <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="com_univ_amu_localizcci_mipmap-xhdpi_in_app - 2020.03.04 at 14h 14m 29s.xml">
-      <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="com_univ_amu_localizcci_mipmap-xhdpi_in_app - 2020.03.04 at 14h 14m 38s.xml">
-      <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="com_univ_amu_localizcci_mipmap-xhdpi_in_app - 2020.03.04 at 14h 14m 52s.xml">
       <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
     </history-entry>
@@ -423,6 +500,27 @@
       <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
     </history-entry>
     <history-entry file="com_univ_amu_localizcci_mipmap-xhdpi_in_app - 2020.03.04 at 14h 29m 39s.xml">
+      <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="com_univ_amu_localizcci_mipmap-xhdpi_in_app - 2020.03.20 at 14h 16m 29s.xml">
+      <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="com_univ_amu_localizcci_mipmap-xhdpi_in_app - 2020.03.20 at 14h 16m 37s.xml">
+      <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="com_univ_amu_localizcci_mipmap-xhdpi_in_app - 2020.03.20 at 14h 17m 00s.xml">
+      <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="com_univ_amu_localizcci_mipmap-xhdpi_in_app - 2020.03.20 at 14h 17m 31s.xml">
+      <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="com_univ_amu_localizcci_mipmap-xhdpi_in_app - 2020.03.20 at 14h 17m 45s.xml">
+      <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="com_univ_amu_localizcci_mipmap-xhdpi_in_app - 2020.03.20 at 14h 18m 43s.xml">
+      <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="com_univ_amu_localizcci_mipmap-xhdpi_in_app - 2020.03.20 at 14h 19m 02s.xml">
       <configuration name="com.univ_amu.localizcci.mipmap-xhdpi in app" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
@@ -437,7 +535,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-2" width="1366" height="770" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21136364" />
@@ -448,16 +545,16 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" weight="0.3262987" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.16380656" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.51638067" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32917318" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.43369734" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.37597504" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3277487" />
-      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" weight="0.32954547" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" weight="0.32954547" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -521,7 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/univ_amu/localizcci/data/database/Dao_Impl.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -640,16 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/ui/CategoryListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-29/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -712,16 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/database/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
@@ -749,27 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/ui/CategoryListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/network/Service.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/database/Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,27 +839,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Category.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/network/Converters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Spot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="261">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/network/Converters.java">
+    <entry file="file://$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/univ_amu/localizcci/data/database/Dao_Impl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="91">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/database/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Spot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/database/Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/ui/CategoryListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="45" column="53" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/ui/CategoryListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -809,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/univ_amu/localizcci/data/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="227">
+          <caret line="67" column="67" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

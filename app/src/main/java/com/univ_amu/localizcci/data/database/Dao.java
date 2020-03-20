@@ -33,6 +33,6 @@ public interface Dao {
     void insertCategory(Category category);
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    void insertSpot(Spot spot, int categoryId);
+    void insertSpot(Spot spot);
 
 }
