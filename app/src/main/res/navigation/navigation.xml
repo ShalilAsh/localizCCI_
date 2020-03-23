@@ -9,7 +9,6 @@
         android:name="com.univ_amu.localizcci.ui.CategoryListFragment"
         android:label="@string/localizcci">
 
-
         <action
             android:id="@+id/action_categoryList_to_spotList"
             app:destination="@id/spotList" />

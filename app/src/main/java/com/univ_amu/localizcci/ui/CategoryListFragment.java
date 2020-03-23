@@ -30,18 +30,18 @@ public class CategoryListFragment extends Fragment {
 
        binding = FragmentCategoryListBinding.inflate(inflater,container ,false);
 
-        // changer du nom : CategoryListModelView
+        // changer du nom : SpotListModelView
         CategoryListViewModel model = ViewModelProviders.of(this).get(CategoryListViewModel.class);
         binding.setModel(model);
+
         CategoryListAdapter categoryListAdapter = new CategoryListAdapter();
         binding.setLifecycleOwner(this);
 
         binding.categoryList.setAdapter(categoryListAdapter);
 
         binding.categoryList.addItemDecoration(new DividerItemDecoration(getContext(), LinearLayoutManager.VERTICAL));
-        model.categories().observe(this, list -> {
-            //Log.i();
 
+        model.categories().observe(this, list -> {
             categoryListAdapter.submitList(list);
             binding.categoryList.computeVerticalScrollExtent();
         });
@@ -56,8 +56,10 @@ public class CategoryListFragment extends Fragment {
 
     private void onCategory(Category category) {
         NavDirections action = CategoryListFragmentDirections.actionCategoryListToSpotList(category.getId());
-        //if ()
-        Navigation.findNavController(getView()).navigate(action);
+        Navigation.findNavController(getView()).navigate(action); // modif
+        //Navigation.findNavController(binding.getRoot()).navigate(action);
 
     }
+
+
 }

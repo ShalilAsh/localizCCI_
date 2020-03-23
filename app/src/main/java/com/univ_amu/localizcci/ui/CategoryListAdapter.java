@@ -5,6 +5,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
+import androidx.navigation.NavDirections;
+import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
@@ -21,7 +23,6 @@ public class CategoryListAdapter extends ListAdapter <Category, CategoryListAdap
         super(diffUtilCallback);
     }
 
-    @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
@@ -42,19 +43,19 @@ public class CategoryListAdapter extends ListAdapter <Category, CategoryListAdap
         public Category category;
         public CategoryItemBinding binding;
 
-        public void onClick(View view) {
-            if (listener != null) listener.onCategory(category);
-            // passer le Variable cateegory.code or id
-            //NavDirections action = CategoryListFragmentDirections.actionCategoryListToSpotList();
-            //Navigation.findNavController(binding.getRoot()).navigate(action);
-
-        }
-
 
         public ViewHolder(@NonNull CategoryItemBinding binding) {
             super(binding.getRoot());
             this.binding=binding;
-            //this.binding.setViewHolder(this);
+            this.binding.setViewHolder(this); // c'est la la bug
+        }
+
+        public void onClick(View view) {
+            if (listener != null) listener.onCategory(category);
+            // passer le Variable cateegory.code or id
+            //NavDirections action = CategoryListFragmentDirections.actionCategoryListToSpotList(category.getId());
+            //Navigation.findNavController(binding.getRoot()).navigate(action);
+
         }
 
         void bind(Category category){this.category=category; binding.invalidateAll();}

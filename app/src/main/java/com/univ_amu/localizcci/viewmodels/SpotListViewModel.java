@@ -20,7 +20,7 @@ public class SpotListViewModel extends AndroidViewModel {
     private final Repository repository;
     private final LiveData<List<Spot>> spots;
 
-    public SpotListViewModel (Application application ,int categoryId){
+    public SpotListViewModel (Application application ,Integer categoryId){
         super(application);
         this.repository= new Repository(application);
         this.spots=repository.getSpots(categoryId);
@@ -31,12 +31,12 @@ public class SpotListViewModel extends AndroidViewModel {
     }
 
 
-/*
+//  a voir ********************************
+
     public void onSearch(View view) {
-        NavDirections action = SpotListFragmentDirections.actionSpotListToSpot();
+        NavDirections action = SpotListFragmentDirections.actionSpotListToSpot(view.getId());
         Navigation.findNavController(view).navigate(action);
     }
 
-*/
 
 }

@@ -30,7 +30,7 @@ public class Repository {
         this.context = context;
         this.dao = null;
         executor = Executors.newSingleThreadExecutor();
-        this.addCategories();
+        this.addCategoriesIfEmpty();
     }
 
     private Dao dao() {
@@ -41,10 +41,11 @@ public class Repository {
         return this.dao;
     }
 
+    public LiveData<Integer> getCategoryCount() {return dao().getCategoryCount();}
 
-    public LiveData<List<Category>> getCategories() {
-        return dao().getCategories();
-    }
+    public LiveData<Integer> getSpotCount() {return dao().getSpotCount();}
+
+    public LiveData<List<Category>> getCategories() { return dao().getCategories(); }
 
     public LiveData<List<Spot>> getSpots(int categoryId) { return dao().getSpots(categoryId); }
 
@@ -52,23 +53,30 @@ public class Repository {
         return dao().getSpot(id);
     }
 
-    public void insertSpot(Spot spot, int categoryId) {
-        executor.execute(() -> dao().insertSpot(spot));
-    }
+
+    public void insertSpot(Spot spot) { executor.execute(() -> dao().insertSpot(spot));}
 
     public void insertCategories(List<Category> categories) {
         executor.execute(() -> dao().insertCategories(categories));
     }
 
 
+    public void addCategoriesIfEmpty() {
+        getCategoryCount().observeForever(value -> {
+            if (value != 0) return;
+                addCategories();
+        });
+    }
+
     private void addCategories() {
          List<Category> categories = Arrays.asList(new Category(0,"Incontounables", "Ce que tu ne dois pas louper",R.drawable.incontournables),
                 new Category(1,"Monuments & Musées", "Les classiques historiques" ,R.drawable.monuments),
                 new Category(2,"Nature", "Decouvrir le paysage" ,R.drawable.nature),
                 new Category(3,"Shopping", "Acheter un truc" ,R.drawable.shopping));
-        insertCategories(categories);
+         insertCategories(categories);
 
     }
+
 
 
     private static List<Category> categories = Arrays.asList(new Category(0,"Incontounables", "Ce que tu ne dois pas louper",R.drawable.incontournables),

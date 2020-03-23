@@ -35,16 +35,15 @@ public class CategoryListViewModel extends AndroidViewModel {
         return categories;
     }
 
-    public void onSearch(View view) { Log.i("Localiz", "onSearch"); }
+    //public void onSearch(View view) { Log.i("Localiz", "onSearch"); }
 
 
-/*
+    // a voir ***************************************
+
     public void onSearch(View view) {
-        NavDirections action = CategoryListFragmentDirections.actionCategoryListToSpotList();
+        NavDirections action = CategoryListFragmentDirections.actionCategoryListToSpotList(view.getId());
         Navigation.findNavController(view).navigate(action);
-    }*/
-
-
+    }
 
 
 }

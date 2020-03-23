@@ -9,9 +9,9 @@ import androidx.lifecycle.ViewModelProvider;
 public class CategoryViewModelFactory implements ViewModelProvider.Factory{
 
     private final Application application;
-    private final int id;
+    private final Integer id;
 
-    public CategoryViewModelFactory(Application application, int id) {
+    public CategoryViewModelFactory(Application application, Integer id) {
         this.application = application;
         this.id = id;
     }

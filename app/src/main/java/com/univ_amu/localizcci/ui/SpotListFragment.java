@@ -26,13 +26,17 @@ public class SpotListFragment extends Fragment {
 
         binding = FragmentSpotListBinding.inflate(inflater, container, false);
 
+        // changer du nom : CategoryListModelView
         SpotListViewModel model = ViewModelProviders.of(this).get(SpotListViewModel.class);
         binding.setModel(model);
+
         SpotListAdapter spotListAdapter = new SpotListAdapter();
         binding.setLifecycleOwner(this);
 
         binding.spotList.setAdapter(spotListAdapter);
+
         binding.spotList.addItemDecoration(new DividerItemDecoration(getContext(), LinearLayoutManager.VERTICAL));
+
         model.spots().observe(this, list -> {
             spotListAdapter.submitList(list);
             binding.spotList.computeVerticalScrollExtent();
@@ -45,7 +49,7 @@ public class SpotListFragment extends Fragment {
 
 
     private void onSpot(Spot spot) {
-        NavDirections action = SpotListFragmentDirections.actionSpotListToSpot(spot.id);
+        NavDirections action = SpotListFragmentDirections.actionSpotListToSpot(spot.getId());
         Navigation.findNavController(getView()).navigate(action);
     }
 

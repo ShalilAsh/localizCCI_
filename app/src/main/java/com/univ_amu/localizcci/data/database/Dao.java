@@ -26,6 +26,13 @@ public interface Dao {
     @Query("SELECT * FROM Spot WHERE id = :id ")
     LiveData<Spot> getSpot(int id );
 
+    @Query("SELECT COUNT(*) FROM Category")
+    LiveData<Integer> getCategoryCount();
+
+    @Query("SELECT COUNT(*) FROM Spot")
+    LiveData<Integer> getSpotCount();
+
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertCategories(List<Category> categories);
 

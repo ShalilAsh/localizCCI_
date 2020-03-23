@@ -24,7 +24,7 @@ public class SpotFragment extends Fragment {
 
         FragmentSpotListBinding binding = FragmentSpotListBinding.inflate(inflater, container, false);
 
-        int id = SpotListFragmentArgs.fromBundle(getArguments()).getId();//******
+        Integer id = SpotListFragmentArgs.fromBundle(getArguments()).getId();//******
 
         //Log.d("SpotListFragment : ", "CategoryId = "+id);
 

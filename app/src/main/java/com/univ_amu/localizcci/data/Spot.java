@@ -25,30 +25,24 @@ public class Spot {
 
     @NonNull
     public Integer categoryId;
-
     public Integer id;
-
     @NonNull
-    //@ColumnInfo(name = "spot_name")
     private String name;
-
-    //@ColumnInfo(name = "spot_date")
     public Date date;
 
 
     public Spot( Integer categoryId,Integer id, String name, Date date){
-
         this.categoryId= categoryId;
         this.id = id;
         this.name = name;
         this.date = date;
     };
 
-    public int getCategoryId() {
+    public Integer getCategoryId() {
         return categoryId;
     }
 
-    public int getId() {return id;}
+    public Integer getId() {return id;}
 
     @NonNull
     public String getName() {return name;}

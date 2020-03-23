@@ -9,10 +9,10 @@ import androidx.lifecycle.ViewModelProvider;
 public class SpotViewModelFactory implements ViewModelProvider.Factory {
 
     private final Application application;
-    private final int id;
+    private final Integer id;
 
 
-    public SpotViewModelFactory(Application application, int id) {
+    public SpotViewModelFactory(Application application, Integer id) {
         this.application = application;
         this.id = id;
     }

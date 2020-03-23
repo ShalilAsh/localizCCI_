@@ -43,17 +43,25 @@ public class SpotListAdapter extends ListAdapter<Spot, SpotListAdapter.ViewHolde
         public ViewHolder(@NonNull SpotItemBinding binding) {
             super(binding.getRoot());
             this.binding=binding;
-            this.binding.setViewHolder(this);
+            this.binding.setViewHolder(this); // important
         }
 
         void bind(Spot spot){this.spot=spot; binding.invalidateAll();}
 
 
-        public void onClick(View view) {
+        /*public void onClick(View view) {
             NavDirections action = SpotListFragmentDirections.actionSpotListToSpot(spot.id);
             Navigation.findNavController(binding.getRoot()).navigate(action);
 
+        }*/
+
+        public void onClick(View view) {
+            if (listener != null) listener.onCategory(spot);
+
+
         }
+
+
 
     }
 

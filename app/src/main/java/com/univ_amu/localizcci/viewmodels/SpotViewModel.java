@@ -15,7 +15,7 @@ public class SpotViewModel  extends ViewModel {
     private final LiveData<Spot> spot;
 
 
-    public SpotViewModel(Application application, int spotId) {
+    public SpotViewModel(Application application, Integer spotId) {
         this.repository = new Repository(application);
         this.spot = repository.getSpot(spotId);
 
