@@ -24,7 +24,7 @@ public class CategoryListAdapter extends ListAdapter <Category, CategoryListAdap
     }
 
     @Override
-    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
         CategoryItemBinding binding = CategoryItemBinding.inflate(layoutInflater,parent,false);
 
@@ -32,8 +32,9 @@ public class CategoryListAdapter extends ListAdapter <Category, CategoryListAdap
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.bind(getItem(position));
+    public void onBindViewHolder( ViewHolder holder, int position) {
+        Category category = getItem(position);
+        holder.bind(category);
 
     }
 
@@ -44,11 +45,13 @@ public class CategoryListAdapter extends ListAdapter <Category, CategoryListAdap
         public CategoryItemBinding binding;
 
 
-        public ViewHolder(@NonNull CategoryItemBinding binding) {
+        public ViewHolder( CategoryItemBinding binding) {
             super(binding.getRoot());
             this.binding=binding;
             this.binding.setViewHolder(this); // c'est la la bug
         }
+
+        void bind(Category category){this.category=category; binding.invalidateAll();}
 
         public void onClick(View view) {
             if (listener != null) listener.onCategory(category);
@@ -58,7 +61,7 @@ public class CategoryListAdapter extends ListAdapter <Category, CategoryListAdap
 
         }
 
-        void bind(Category category){this.category=category; binding.invalidateAll();}
+
 
 
 
@@ -70,7 +73,7 @@ public class CategoryListAdapter extends ListAdapter <Category, CategoryListAdap
             new DiffUtil.ItemCallback<Category>() {
                 @Override
                 public boolean areItemsTheSame(Category oldCategory, Category newCategory) {
-                    return oldCategory.id== newCategory.id;
+                    return oldCategory.id.equals(newCategory.id);
                 }
                 @Override
                 public boolean areContentsTheSame(Category oldCategory, Category newCategory) {

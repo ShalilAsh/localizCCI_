@@ -21,9 +21,8 @@ public class SpotListAdapter extends ListAdapter<Spot, SpotListAdapter.ViewHolde
 
     SpotListAdapter() {super(diffUtilCallback); }
 
-    @NonNull
     @Override
-    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder( ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
         SpotItemBinding binding = SpotItemBinding.inflate(layoutInflater,parent,false);
 
@@ -32,7 +31,8 @@ public class SpotListAdapter extends ListAdapter<Spot, SpotListAdapter.ViewHolde
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.bind(getItem(position));
+        Spot spot = getItem(position);
+        holder.bind(spot);
 
     }
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -40,7 +40,7 @@ public class SpotListAdapter extends ListAdapter<Spot, SpotListAdapter.ViewHolde
         public Spot spot;
         public SpotItemBinding binding;
 
-        public ViewHolder(@NonNull SpotItemBinding binding) {
+        public ViewHolder(SpotItemBinding binding) {
             super(binding.getRoot());
             this.binding=binding;
             this.binding.setViewHolder(this); // important
@@ -56,7 +56,9 @@ public class SpotListAdapter extends ListAdapter<Spot, SpotListAdapter.ViewHolde
         }*/
 
         public void onClick(View view) {
-            if (listener != null) listener.onCategory(spot);
+            if (listener != null) listener.onSpot(spot);
+            //NavDirections action = SpotListFragmentDirections.actionSpotListToSpot(spot.getId());
+            //Navigation.findNavController(getView()).navigate(action);
 
 
         }
@@ -70,7 +72,7 @@ public class SpotListAdapter extends ListAdapter<Spot, SpotListAdapter.ViewHolde
             new DiffUtil.ItemCallback<Spot>() {
                 @Override
                 public boolean areItemsTheSame(Spot oldSpot, Spot newSpot) {
-                    return oldSpot.id== newSpot.id;
+                    return oldSpot.id.equals(newSpot.id);
                 }
                 @Override
                 public boolean areContentsTheSame(Spot oldSpot, Spot newSpot) {
@@ -81,7 +83,7 @@ public class SpotListAdapter extends ListAdapter<Spot, SpotListAdapter.ViewHolde
 
     // custom listener :
     public interface onSpotListener {
-        void onCategory(Spot spot);
+        void onSpot(Spot spot); // la un prob ..
     }
 
     // setListenner :

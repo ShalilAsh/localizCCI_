@@ -1,6 +1,5 @@
 package com.univ_amu.localizcci.data;
 
-import android.app.Activity;
 import android.content.Context;
 
 import androidx.lifecycle.LiveData;
@@ -9,17 +8,11 @@ import com.univ_amu.localizcci.R;
 import com.univ_amu.localizcci.data.database.Dao;
 import com.univ_amu.localizcci.data.database.Database;
 
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Date;
 import java.util.List;
-import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.stream.Collectors;
 
 public class Repository {
     private final Context context;
@@ -31,6 +24,7 @@ public class Repository {
         this.dao = null;
         executor = Executors.newSingleThreadExecutor();
         this.addCategoriesIfEmpty();
+        this.addSpotsIfEmpty(); // this , this ,,, this
     }
 
     private Dao dao() {
@@ -49,12 +43,21 @@ public class Repository {
 
     public LiveData<List<Spot>> getSpots(int categoryId) { return dao().getSpots(categoryId); }
 
+    public LiveData<List<Spot>> getSpots() {
+        return dao().getSpots();
+    }
+
     public LiveData<Spot> getSpot(int id) {
         return dao().getSpot(id);
     }
 
 
     public void insertSpot(Spot spot) { executor.execute(() -> dao().insertSpot(spot));}
+
+
+    public void insertSpots(List<Spot> spots) {
+        executor.execute(() -> dao().insertSpots(spots));
+    }
 
     public void insertCategories(List<Category> categories) {
         executor.execute(() -> dao().insertCategories(categories));
@@ -64,16 +67,52 @@ public class Repository {
     public void addCategoriesIfEmpty() {
         getCategoryCount().observeForever(value -> {
             if (value != 0) return;
-                addCategories();
+            addCategories();
+
         });
     }
 
     private void addCategories() {
-         List<Category> categories = Arrays.asList(new Category(0,"Incontounables", "Ce que tu ne dois pas louper",R.drawable.incontournables),
-                new Category(1,"Monuments & Musées", "Les classiques historiques" ,R.drawable.monuments),
-                new Category(2,"Nature", "Decouvrir le paysage" ,R.drawable.nature),
-                new Category(3,"Shopping", "Acheter un truc" ,R.drawable.shopping));
+         List<Category> categories = Arrays.asList(
+                 new Category(0,"Incontounables", "Ce que tu ne dois pas louper",R.drawable.incontournables),
+                 new Category(1,"Monuments & Musées", "Les classiques historiques" ,R.drawable.monuments),
+                 new Category(2,"Nature", "Decouvrir le paysage" ,R.drawable.nature),
+                 new Category(3,"Shopping", "Acheter un truc" ,R.drawable.shopping));
          insertCategories(categories);
+         addSpots();
+
+    }
+
+
+    public void addSpotsIfEmpty (){
+        getSpotCount().observeForever(value -> {
+            if (value != 0) return;
+            addSpots();
+        });
+    }
+
+
+
+
+    private void addSpots() {
+        spots = Arrays.asList(
+                new Spot(0,0," Vieux port",new Date()),
+                new Spot(0,1," La Vieille Charité ",new Date()),
+                new Spot(0, 3," Notre dame de la garde",new Date()),
+                new Spot(0, 4," Cathédrale de la Major",new Date()),
+                new Spot(0, 5," Calanques de Marseille",new Date()),
+                new Spot(3, 6," Calanques de Marseille",new Date()),
+                new Spot(0,7," Friche La Belle-de-Mai ",new Date()),
+                new Spot(0,8," L'Estaque ",new Date()),
+                new Spot(0,9," Château d'If  ",new Date()),
+                new Spot(1,10," Château d'If  ",new Date()),
+                new Spot(3,11," Friche La Belle-de-Mai ",new Date())
+
+        );
+        insertSpots(spots);
+
+
+
 
     }
 
@@ -84,23 +123,20 @@ public class Repository {
             new Category(2,"Nature", "Decouvrir le paysage" ,R.drawable.nature),
             new Category(3,"Shopping", "Acheter un truc" ,R.drawable.shopping));
 
-
     private static List<Spot> spots = Arrays.asList(
             new Spot(0,0," Vieux port",new Date()),
-            new Spot(1,0," La Vieille Charité ",new Date()),
-            new Spot(2, 0," Notre dame de la garde",new Date()),
-            new Spot(3, 0," Cathédrale de la Major",new Date()),
-            new Spot(4, 0," Calanques de Marseille",new Date()),
-            new Spot(5, 3," Calanques de Marseille",new Date()),
-            new Spot(6,0," Friche La Belle-de-Mai ",new Date()),
-            new Spot(7,0," L'Estaque ",new Date()),
-            new Spot(8,0," Château d'If  ",new Date()),
-            new Spot(9,1," Château d'If  ",new Date()),
-            new Spot(10,3," Friche La Belle-de-Mai ",new Date())
+            new Spot(0,1," La Vieille Charité ",new Date()),
+            new Spot(0, 3," Notre dame de la garde",new Date()),
+            new Spot(0, 4," Cathédrale de la Major",new Date()),
+            new Spot(0, 5," Calanques de Marseille",new Date()),
+            new Spot(3, 6," Calanques de Marseille",new Date()),
+            new Spot(0,7," Friche La Belle-de-Mai ",new Date()),
+            new Spot(0,8," L'Estaque ",new Date()),
+            new Spot(0,9," Château d'If  ",new Date()),
+            new Spot(1,10," Château d'If  ",new Date()),
+            new Spot(3,11," Friche La Belle-de-Mai ",new Date())
 
             );
-
-
 
 
 }

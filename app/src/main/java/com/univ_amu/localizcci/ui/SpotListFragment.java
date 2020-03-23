@@ -17,6 +17,7 @@ import com.univ_amu.localizcci.data.Repository;
 import com.univ_amu.localizcci.data.Spot;
 import com.univ_amu.localizcci.databinding.FragmentSpotListBinding;
 import com.univ_amu.localizcci.viewmodels.SpotListViewModel;
+import com.univ_amu.localizcci.viewmodels.SpotListViewModelFactory;
 
 public class SpotListFragment extends Fragment {
 
@@ -27,7 +28,14 @@ public class SpotListFragment extends Fragment {
         binding = FragmentSpotListBinding.inflate(inflater, container, false);
 
         // changer du nom : CategoryListModelView
-        SpotListViewModel model = ViewModelProviders.of(this).get(SpotListViewModel.class);
+
+        int id = SpotListFragmentArgs.fromBundle(getArguments()).getId();//****** Important
+
+        SpotListViewModel model = ViewModelProviders.of(this,
+                new SpotListViewModelFactory(getActivity().getApplication(), id)).get(SpotListViewModel.class);
+
+        // affichage une liste avec ID , (FragmentArgs)
+
         binding.setModel(model);
 
         SpotListAdapter spotListAdapter = new SpotListAdapter();
@@ -37,10 +45,12 @@ public class SpotListFragment extends Fragment {
 
         binding.spotList.addItemDecoration(new DividerItemDecoration(getContext(), LinearLayoutManager.VERTICAL));
 
-        model.spots().observe(this, list -> {
+        /*model.spots().observe(this, list -> {
             spotListAdapter.submitList(list);
             binding.spotList.computeVerticalScrollExtent();
-        });
+        });*/
+
+        model.spots().observe(this, spotListAdapter :: submitList);
 
         spotListAdapter.setListener(this :: onSpot);
         return binding.getRoot();

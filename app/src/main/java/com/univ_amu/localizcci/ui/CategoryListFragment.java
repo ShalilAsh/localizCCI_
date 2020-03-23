@@ -45,6 +45,8 @@ public class CategoryListFragment extends Fragment {
             categoryListAdapter.submitList(list);
             binding.categoryList.computeVerticalScrollExtent();
         });
+
+
         categoryListAdapter.setListener(this :: onCategory);
         return binding.getRoot();
 

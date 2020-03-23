@@ -25,6 +25,8 @@ public class Spot {
 
     @NonNull
     public Integer categoryId;
+
+
     public Integer id;
     @NonNull
     private String name;

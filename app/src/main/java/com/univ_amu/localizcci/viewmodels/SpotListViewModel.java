@@ -20,10 +20,12 @@ public class SpotListViewModel extends AndroidViewModel {
     private final Repository repository;
     private final LiveData<List<Spot>> spots;
 
-    public SpotListViewModel (Application application ,Integer categoryId){
+    public SpotListViewModel (Application application, int categoryId){
         super(application);
         this.repository= new Repository(application);
-        this.spots=repository.getSpots(categoryId);
+        this.spots=repository.getSpots(categoryId); // modifs
+
+        //this.spots=repository.getSpots(); // modifs
     }
 
     public LiveData<List<Spot>> spots() {
