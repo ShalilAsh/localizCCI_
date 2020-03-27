@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelProvider;
 public class SpotListViewModelFactory implements ViewModelProvider.Factory{
 
     private final Application application;
-    private final int id;
+    private final Integer id;
 
     public SpotListViewModelFactory (Application application, Integer id){
 

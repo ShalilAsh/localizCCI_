@@ -19,17 +19,14 @@ public class Category {
     public Integer id;
 
     @NonNull
-    //@ColumnInfo(name = "name")
     public  String name;
 
     @NonNull
-    //@ColumnInfo(name = "description")
     public String description;
 
-    //@ColumnInfo(name = "imgid")
     public int imgid;
 
-    public Category(Integer id ,String name, String description, int  imgid) {
+    public Category(Integer id ,String name, String description, Integer imgid) {
         this.id = id;
         this.name = name;
         this.description = description;

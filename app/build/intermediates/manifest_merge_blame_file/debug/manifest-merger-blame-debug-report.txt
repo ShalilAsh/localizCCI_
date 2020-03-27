@@ -9,239 +9,304 @@
 8-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
 9-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml
-10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:4:5-67
-11-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:4:22-64
-12    <uses-permission android:name="android.permission.WAKE_LOCK" />
-12-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:25:5-68
-12-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:25:22-65
-13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:26:5-79
-13-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:26:22-76
-14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-14-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:27:5-81
-14-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:27:22-78
-15
-16    <application
-16-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:6:5-22:19
-17        android:allowBackup="true"
-17-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:7:9-35
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/ae0c614d4894f88cefee255652777001/core-1.1.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:9:9-43
-21        android:label="@string/localizcci"
-21-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:10:9-43
-22        android:supportsRtl="true"
-22-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:11:9-35
-23        android:testOnly="true"
-24        android:theme="@style/AppTheme"
-24-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:12:9-40
-25        android:usesCleartextTraffic="true" >
-25-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:8:9-44
-26        <activity
-26-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:13:9-21:20
-27            android:name="com.univ_amu.localizcci.ui.MainActivity"
-27-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:15:13-44
-28            android:label="@string/localizcci"
-28-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:16:13-47
-29            android:screenOrientation="portrait" >
-29-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:14:13-49
-30            <intent-filter>
-30-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:17:13-20:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:18:17-69
-31-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:18:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:19:17-77
-33-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:19:27-74
-34            </intent-filter>
-35        </activity>
-36
-37        <provider
-37-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:30:9-36:35
-38            android:name="androidx.work.impl.WorkManagerInitializer"
-38-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:31:13-69
-39            android:authorities="com.univ_amu.food_scanner.workmanager-init"
-39-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:32:13-68
-40            android:directBootAware="false"
-40-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:33:13-44
-41            android:exported="false"
-41-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:34:13-37
-42            android:multiprocess="true" />
-42-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:35:13-40
-43
-44        <service
-44-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:38:9-43:35
-45            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-45-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:39:13-88
-46            android:directBootAware="false"
-46-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:40:13-44
-47            android:enabled="@bool/enable_system_alarm_service_default"
-47-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:41:13-72
-48            android:exported="false" />
-48-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:42:13-37
-49        <service
-49-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:44:9-50:35
-50            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-50-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:45:13-84
-51            android:directBootAware="false"
-51-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:46:13-44
-52            android:enabled="@bool/enable_system_job_service_default"
-52-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:47:13-70
-53            android:exported="true"
-53-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:48:13-36
-54            android:permission="android.permission.BIND_JOB_SERVICE" />
-54-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:49:13-69
-55
-56        <receiver
-56-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:52:9-57:35
-57            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-57-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:53:13-88
-58            android:directBootAware="false"
-58-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:54:13-44
-59            android:enabled="true"
-59-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:55:13-35
-60            android:exported="false" />
-60-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:56:13-37
-61        <receiver
-61-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:58:9-68:20
-62            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-62-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:59:13-106
-63            android:directBootAware="false"
-63-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:60:13-44
-64            android:enabled="false"
-64-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:61:13-36
-65            android:exported="false" >
-65-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:62:13-37
-66            <intent-filter>
-66-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:64:13-67:29
-67                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-67-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:65:17-87
-67-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:65:25-84
-68                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-68-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:66:17-90
-68-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:66:25-87
-69            </intent-filter>
-70        </receiver>
-71        <receiver
-71-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:69:9-79:20
-72            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-72-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:70:13-104
-73            android:directBootAware="false"
-73-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:71:13-44
-74            android:enabled="false"
-74-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:72:13-36
-75            android:exported="false" >
-75-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:73:13-37
-76            <intent-filter>
-76-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:75:13-78:29
-77                <action android:name="android.intent.action.BATTERY_OKAY" />
-77-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:76:17-77
-77-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:76:25-74
-78                <action android:name="android.intent.action.BATTERY_LOW" />
-78-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:77:17-76
-78-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:77:25-73
-79            </intent-filter>
-80        </receiver>
-81        <receiver
-81-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:80:9-90:20
-82            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-82-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:81:13-104
-83            android:directBootAware="false"
-83-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:82:13-44
-84            android:enabled="false"
-84-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:83:13-36
-85            android:exported="false" >
-85-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:84:13-37
-86            <intent-filter>
-86-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:86:13-89:29
-87                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-87-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:87:17-83
-87-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:87:25-80
-88                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-88-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:88:17-82
-88-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:88:25-79
-89            </intent-filter>
-90        </receiver>
-91        <receiver
-91-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:91:9-100:20
-92            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-92-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:92:13-103
-93            android:directBootAware="false"
-93-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:93:13-44
-94            android:enabled="false"
-94-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:94:13-36
-95            android:exported="false" >
-95-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:95:13-37
-96            <intent-filter>
-96-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:97:13-99:29
-97                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-97-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:98:17-79
-97-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:98:25-76
-98            </intent-filter>
-99        </receiver>
-100        <receiver
-100-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:101:9-112:20
-101            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-101-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:102:13-88
-102            android:directBootAware="false"
-102-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:103:13-44
-103            android:enabled="false"
-103-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:104:13-36
-104            android:exported="false" >
-104-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:105:13-37
-105            <intent-filter>
-105-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:107:13-111:29
-106                <action android:name="android.intent.action.BOOT_COMPLETED" />
-106-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:108:17-79
-106-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:108:25-76
-107                <action android:name="android.intent.action.TIME_SET" />
-107-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:109:17-73
-107-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:109:25-70
-108                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-108-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:110:17-81
-108-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:110:25-78
-109            </intent-filter>
-110        </receiver>
-111        <receiver
-111-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:113:9-122:20
-112            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-112-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:114:13-99
-113            android:directBootAware="false"
-113-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:115:13-44
-114            android:enabled="@bool/enable_system_alarm_service_default"
-114-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:116:13-72
-115            android:exported="false" >
-115-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:117:13-37
-116            <intent-filter>
-116-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:119:13-121:29
-117                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-117-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:120:17-98
-117-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:120:25-95
-118            </intent-filter>
-119        </receiver>
-120
-121        <service
-121-->[androidx.room:room-runtime:2.2.2] /home/shalil/.gradle/caches/transforms-2/files-2.1/af3eaafc4144a8d288e05f5dcbd5a02b/room-runtime-2.2.2/AndroidManifest.xml:25:9-27:40
-122            android:name="androidx.room.MultiInstanceInvalidationService"
-122-->[androidx.room:room-runtime:2.2.2] /home/shalil/.gradle/caches/transforms-2/files-2.1/af3eaafc4144a8d288e05f5dcbd5a02b/room-runtime-2.2.2/AndroidManifest.xml:26:13-74
-123            android:exported="false" />
-123-->[androidx.room:room-runtime:2.2.2] /home/shalil/.gradle/caches/transforms-2/files-2.1/af3eaafc4144a8d288e05f5dcbd5a02b/room-runtime-2.2.2/AndroidManifest.xml:27:13-37
-124
-125        <provider
-125-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
-126            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-126-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
-127            android:authorities="com.univ_amu.food_scanner.lifecycle-process"
-127-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
-128            android:exported="false"
-128-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
-129            android:multiprocess="true" />
-129-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
-130    </application>
-131
-132</manifest>
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:9:5-79
+15-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:10:5-81
+16-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:11:5-67
+17-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:25:5-68
+18-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:25:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:26:5-79
+19-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:26:22-76
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:27:5-81
+20-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:27:22-78
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:28:9-32
+25
+26    <application
+26-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:13:5-47:19
+27        android:allowBackup="true"
+27-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:14:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/ae0c614d4894f88cefee255652777001/core-1.1.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:15:9-43
+31        android:label="@string/localizcci"
+31-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:16:9-43
+32        android:logo="@drawable/logo"
+32-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:17:9-38
+33        android:supportsRtl="true"
+33-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:18:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme"
+35-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:19:9-40
+36        android:usesCleartextTraffic="true" >
+36-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:20:9-44
+37
+38        <!--
+39             The API key for Google Maps-based APIs is defined as a string resource.
+40             (See the file "res/values/google_maps_api.xml").
+41             Note that the API key is linked to the encryption key used to sign the APK.
+42             You need a different API key for each encryption key, including the release key that is used to
+43             sign the APK for publishing.
+44             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+45        -->
+46        <meta-data
+46-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:29:9-31:55
+47            android:name="com.google.android.geo.API_KEY"
+47-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:30:13-58
+48            android:value="@string/google_maps_key" />
+48-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:31:13-52
+49
+50        <activity
+50-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:33:9-35:67
+51            android:name="com.univ_amu.localizcci.ui.MapFragment"
+51-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:34:13-43
+52            android:label="@string/title_activity_map_fragment" />
+52-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:35:13-64
+53        <activity
+53-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:36:9-46:20
+54            android:name="com.univ_amu.localizcci.ui.MainActivity"
+54-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:37:13-44
+55            android:label="@string/localizcci"
+55-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:38:13-47
+56            android:logo="@drawable/logo"
+56-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:39:13-42
+57            android:screenOrientation="fullSensor" >
+57-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:40:13-51
+58            <intent-filter>
+58-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:41:13-45:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:42:17-69
+59-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:42:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:44:17-77
+61-->/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:44:27-74
+62            </intent-filter>
+63        </activity>
+64
+65        <provider
+65-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:30:9-36:35
+66            android:name="androidx.work.impl.WorkManagerInitializer"
+66-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:31:13-69
+67            android:authorities="com.univ_amu.food_scanner.workmanager-init"
+67-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:32:13-68
+68            android:directBootAware="false"
+68-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:33:13-44
+69            android:exported="false"
+69-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:34:13-37
+70            android:multiprocess="true" />
+70-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:35:13-40
+71
+72        <service
+72-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:38:9-43:35
+73            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+73-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:39:13-88
+74            android:directBootAware="false"
+74-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:40:13-44
+75            android:enabled="@bool/enable_system_alarm_service_default"
+75-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:41:13-72
+76            android:exported="false" />
+76-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:42:13-37
+77        <service
+77-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:44:9-50:35
+78            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+78-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:45:13-84
+79            android:directBootAware="false"
+79-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:46:13-44
+80            android:enabled="@bool/enable_system_job_service_default"
+80-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:47:13-70
+81            android:exported="true"
+81-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:48:13-36
+82            android:permission="android.permission.BIND_JOB_SERVICE" />
+82-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:49:13-69
+83
+84        <receiver
+84-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:52:9-57:35
+85            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+85-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:53:13-88
+86            android:directBootAware="false"
+86-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:54:13-44
+87            android:enabled="true"
+87-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:55:13-35
+88            android:exported="false" />
+88-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:56:13-37
+89        <receiver
+89-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:58:9-68:20
+90            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+90-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:59:13-106
+91            android:directBootAware="false"
+91-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:60:13-44
+92            android:enabled="false"
+92-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:61:13-36
+93            android:exported="false" >
+93-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:62:13-37
+94            <intent-filter>
+94-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:64:13-67:29
+95                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+95-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:65:17-87
+95-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:65:25-84
+96                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+96-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:66:17-90
+96-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:66:25-87
+97            </intent-filter>
+98        </receiver>
+99        <receiver
+99-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:69:9-79:20
+100            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+100-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:70:13-104
+101            android:directBootAware="false"
+101-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:71:13-44
+102            android:enabled="false"
+102-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:72:13-36
+103            android:exported="false" >
+103-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:73:13-37
+104            <intent-filter>
+104-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:75:13-78:29
+105                <action android:name="android.intent.action.BATTERY_OKAY" />
+105-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:76:17-77
+105-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:76:25-74
+106                <action android:name="android.intent.action.BATTERY_LOW" />
+106-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:77:17-76
+106-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:77:25-73
+107            </intent-filter>
+108        </receiver>
+109        <receiver
+109-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:80:9-90:20
+110            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+110-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:81:13-104
+111            android:directBootAware="false"
+111-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:82:13-44
+112            android:enabled="false"
+112-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:83:13-36
+113            android:exported="false" >
+113-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:84:13-37
+114            <intent-filter>
+114-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:86:13-89:29
+115                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+115-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:87:17-83
+115-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:87:25-80
+116                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+116-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:88:17-82
+116-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:88:25-79
+117            </intent-filter>
+118        </receiver>
+119        <receiver
+119-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:91:9-100:20
+120            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+120-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:92:13-103
+121            android:directBootAware="false"
+121-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:93:13-44
+122            android:enabled="false"
+122-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:94:13-36
+123            android:exported="false" >
+123-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:95:13-37
+124            <intent-filter>
+124-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:97:13-99:29
+125                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+125-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:98:17-79
+125-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:98:25-76
+126            </intent-filter>
+127        </receiver>
+128        <receiver
+128-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:101:9-112:20
+129            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+129-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:102:13-88
+130            android:directBootAware="false"
+130-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:103:13-44
+131            android:enabled="false"
+131-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:104:13-36
+132            android:exported="false" >
+132-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:105:13-37
+133            <intent-filter>
+133-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:107:13-111:29
+134                <action android:name="android.intent.action.BOOT_COMPLETED" />
+134-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:108:17-79
+134-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:108:25-76
+135                <action android:name="android.intent.action.TIME_SET" />
+135-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:109:17-73
+135-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:109:25-70
+136                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+136-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:110:17-81
+136-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:110:25-78
+137            </intent-filter>
+138        </receiver>
+139        <receiver
+139-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:113:9-122:20
+140            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+140-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:114:13-99
+141            android:directBootAware="false"
+141-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:115:13-44
+142            android:enabled="@bool/enable_system_alarm_service_default"
+142-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:116:13-72
+143            android:exported="false" >
+143-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:117:13-37
+144            <intent-filter>
+144-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:119:13-121:29
+145                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+145-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:120:17-98
+145-->[androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:120:25-95
+146            </intent-filter>
+147        </receiver> <!-- Needs to be explicitly declared on P+ -->
+148        <uses-library
+148-->[com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
+149            android:name="org.apache.http.legacy"
+149-->[com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
+150            android:required="false" />
+150-->[com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
+151
+152        <activity
+152-->[com.google.android.gms:play-services-base:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dd782446ff39286a4595c52f584c49ec/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+153            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+153-->[com.google.android.gms:play-services-base:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dd782446ff39286a4595c52f584c49ec/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-base:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dd782446ff39286a4595c52f584c49ec/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.android.gms:play-services-base:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dd782446ff39286a4595c52f584c49ec/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+156
+157        <meta-data
+157-->[com.google.android.gms:play-services-basement:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/5076d1abff6c66fd00a8ca439cbc4efd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+158            android:name="com.google.android.gms.version"
+158-->[com.google.android.gms:play-services-basement:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/5076d1abff6c66fd00a8ca439cbc4efd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+159            android:value="@integer/google_play_services_version" />
+159-->[com.google.android.gms:play-services-basement:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/5076d1abff6c66fd00a8ca439cbc4efd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+160
+161        <service
+161-->[androidx.room:room-runtime:2.2.2] /home/shalil/.gradle/caches/transforms-2/files-2.1/af3eaafc4144a8d288e05f5dcbd5a02b/room-runtime-2.2.2/AndroidManifest.xml:25:9-27:40
+162            android:name="androidx.room.MultiInstanceInvalidationService"
+162-->[androidx.room:room-runtime:2.2.2] /home/shalil/.gradle/caches/transforms-2/files-2.1/af3eaafc4144a8d288e05f5dcbd5a02b/room-runtime-2.2.2/AndroidManifest.xml:26:13-74
+163            android:exported="false" />
+163-->[androidx.room:room-runtime:2.2.2] /home/shalil/.gradle/caches/transforms-2/files-2.1/af3eaafc4144a8d288e05f5dcbd5a02b/room-runtime-2.2.2/AndroidManifest.xml:27:13-37
+164
+165        <provider
+165-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+166            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+166-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+167            android:authorities="com.univ_amu.food_scanner.lifecycle-process"
+167-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+168            android:exported="false"
+168-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+169            android:multiprocess="true" />
+169-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+170    </application>
+171
+172</manifest>

@@ -18,10 +18,16 @@ import java.lang.Object;
 
 public abstract class SpotDescriptionBinding extends ViewDataBinding {
   @NonNull
-  public final TextView SpotContent;
+  public final TextView SpotDescription;
 
   @NonNull
   public final TextView TitleName;
+
+  @NonNull
+  public final TextView date;
+
+  @NonNull
+  public final TextView gps;
 
   @NonNull
   public final ImageView imgSpot;
@@ -30,10 +36,13 @@ public abstract class SpotDescriptionBinding extends ViewDataBinding {
   protected Spot mSpot;
 
   protected SpotDescriptionBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      TextView SpotContent, TextView TitleName, ImageView imgSpot) {
+      TextView SpotDescription, TextView TitleName, TextView date, TextView gps,
+      ImageView imgSpot) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.SpotContent = SpotContent;
+    this.SpotDescription = SpotDescription;
     this.TitleName = TitleName;
+    this.date = date;
+    this.gps = gps;
     this.imgSpot = imgSpot;
   }
 

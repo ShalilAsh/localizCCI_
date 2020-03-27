@@ -1,4 +1,41 @@
 <resources>
     <string name="app_name">LocalizCCI</string>
     <string name="localizcci">LocalizCCI</string>
+    <string name="title_activity_map_fragment">Map</string>
+    <string name="badNumber" />
+    <string name="formulaire_title"> Soumettre un nouveau spot </string>
+    <string name="NomSpot"> Nom Spot </string>
+    <string name="Gps"> Localité / GPS </string>
+
+    <string name="email"> Email </string>
+
+    <string name="choisir_ville"> choisir une ville  </string>
+    <string name="choisir_category"> choisir une category  </string>
+
+
+    <string name="description_spot"> Description du spot </string>
+    <string name="feedbackresponse"> FBResponse </string>
+    <string name="envoyerbutton"> Envoyer </string>
+
+
+    <string name="choix1">Marseill</string>
+    <string name="choix2">Paris</string>
+    <string name="choix3">Nice</string>
+
+
+    <string name="category1"> Incontounables </string>
+    <string name="category2"> Monuments et Musées </string>
+    <string name="category3"> Nature </string>
+    <string name="category4"> Shopping </string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
 </resources>

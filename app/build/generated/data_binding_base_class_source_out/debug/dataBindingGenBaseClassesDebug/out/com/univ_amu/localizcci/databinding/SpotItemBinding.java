@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.Bindable;
@@ -17,15 +18,23 @@ import java.lang.Object;
 
 public abstract class SpotItemBinding extends ViewDataBinding {
   @NonNull
+  public final TextView gps;
+
+  @NonNull
   public final ImageView imgspot;
+
+  @NonNull
+  public final TextView spotname;
 
   @Bindable
   protected SpotListAdapter.ViewHolder mViewHolder;
 
   protected SpotItemBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ImageView imgspot) {
+      TextView gps, ImageView imgspot, TextView spotname) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.gps = gps;
     this.imgspot = imgspot;
+    this.spotname = spotname;
   }
 
   public abstract void setViewHolder(@Nullable SpotListAdapter.ViewHolder viewHolder);

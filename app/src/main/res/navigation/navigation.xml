@@ -12,6 +12,16 @@
         <action
             android:id="@+id/action_categoryList_to_spotList"
             app:destination="@id/spotList" />
+
+        <action
+            android:id="@+id/action_categoryList_to_MapFragment"
+            app:destination="@id/MapFragment" />
+
+        <action
+            android:id="@+id/action_categoryList_to_Formulaiare"
+            app:destination="@id/Formulaire" />
+
+
     </fragment>
 
     <fragment
@@ -38,6 +48,23 @@
             android:name="id"
             app:argType= "integer"/>
     </fragment>
+
+
+    <fragment
+        android:id="@+id/MapFragment"
+        android:name="com.univ_amu.localizcci.ui.MapFragment"
+        android:label="@string/localizcci">
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/Formulaire"
+        android:name="com.univ_amu.localizcci.ui.Formulaire"
+        android:label="@string/localizcci">
+
+    </fragment>
+
 
 
 </navigation>

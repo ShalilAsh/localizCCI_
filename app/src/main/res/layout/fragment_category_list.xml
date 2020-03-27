@@ -6,10 +6,12 @@
         <variable
             name="model"
             type="com.univ_amu.localizcci.viewmodels.CategoryListViewModel" />
+
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
         android:layout_height="match_parent">
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/categoryList"
@@ -17,13 +19,42 @@
             android:layout_height="wrap_content"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:onClick="sss"
-            android:layout_width="wrap_content"
+        <!--  <com.google.android.material.floatingactionbutton.FloatingActionButton
+             android:onClick="@{model::onSearch}"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="bottom|end"
+             android:layout_margin="16dp"
+             app:srcCompat="@drawable/ic_search" /> -->
+
+        <!-- <com.google.android.material.floatingactionbutton.FloatingActionButton
+             android:id="@+id/buttonFormulaire"
+             android:onClick="@{model::onAdd}"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="bottom|start"
+             android:layout_margin="16dp"
+             app:srcCompat="@drawable/ic_add_location" />-->
+
+        <!-- <androidx.appcompat.widget.Toolbar
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@color/colorAccent"
+             android:minHeight="?attr/actionBarSize"
+             android:id="@+id/toolbar"/> -->
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|end"
-            android:layout_margin="16dp"
-            app:srcCompat="@drawable/ic_search" />
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/bottom_navigation"/>
+            <!--app:onNavigationItemSelected="@{viewmodel::onNavigationClick}"/> -->
+
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

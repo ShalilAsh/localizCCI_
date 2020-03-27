@@ -22,6 +22,7 @@ import com.univ_amu.localizcci.viewmodels.SpotListViewModelFactory;
 public class SpotListFragment extends Fragment {
 
     FragmentSpotListBinding binding;
+    SpotListViewModel model;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -31,7 +32,7 @@ public class SpotListFragment extends Fragment {
 
         int id = SpotListFragmentArgs.fromBundle(getArguments()).getId();//****** Important
 
-        SpotListViewModel model = ViewModelProviders.of(this,
+        model = ViewModelProviders.of(this,
                 new SpotListViewModelFactory(getActivity().getApplication(), id)).get(SpotListViewModel.class);
 
         // affichage une liste avec ID , (FragmentArgs)
@@ -62,5 +63,17 @@ public class SpotListFragment extends Fragment {
         NavDirections action = SpotListFragmentDirections.actionSpotListToSpot(spot.getId());
         Navigation.findNavController(getView()).navigate(action);
     }
+
+
+
+/*
+     private void onSpot(Spot spot) {
+        model.downloadSpot(spot.id);
+         NavDirections action = SpotListFragmentDirections.actionSpotListToSpot(spot.getId());
+         Navigation.findNavController(getView()).navigate(action);
+    }
+ */
+
+
 
 }

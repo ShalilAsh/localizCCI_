@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:1:1-23:12
-INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:1:1-23:12
-INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:1:1-23:12
-INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:1:1-23:12
+ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:2:1-49:12
 MERGED from [androidx.databinding:databinding-adapters:3.5.3] /home/shalil/.gradle/caches/transforms-2/files-2.1/0e72afab450cbced411afeb70674f95c/databinding-adapters-3.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:3.5.3] /home/shalil/.gradle/caches/transforms-2/files-2.1/9a212747d8500b5c3ea69baf0f981904/databinding-runtime-3.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/597e6333b24f45747a41f2ea16ee3443/jetified-navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
@@ -16,6 +16,12 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/shalil/.gradle/cache
 MERGED from [androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:17:1-125:12
 MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/0c5e9f98848a73401d80fdee53817f4e/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/cd275276c7b9618fea1e939d5bab092d/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/b3b927e30cc441962d93ebce5f7c17f8/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dd782446ff39286a4595c52f584c49ec/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/942d35076b030d1bdc791f3b95fc9dde/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dabcfb073d07f33e545aa9597e39e7ee/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/5076d1abff6c66fd00a8ca439cbc4efd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/34212ccd385d8c2562c11752d5696815/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/47001396a60a1af13a3865ef1d0b1a3b/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/4c5aa1e914ea2f8d6f1fbe500b288d16/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -37,15 +43,15 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/shalil/
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/d35173fdf081bb52e979439f70d0cdb8/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/663cde38ada4487b2275bb86dc98929c/navigation-common-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/ae0c614d4894f88cefee255652777001/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/1d65d41a8331e89add0952666884b193/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/32090a70ae467abfb0418678db9fe256/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/a74b4a2c38ad7461f10da1f94b201eef/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.room:room-runtime:2.2.2] /home/shalil/.gradle/caches/transforms-2/files-2.1/af3eaafc4144a8d288e05f5dcbd5a02b/room-runtime-2.2.2/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/shalil/.gradle/caches/transforms-2/files-2.1/15db15a3fae93296a5fa5db57be16c63/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/shalil/.gradle/caches/transforms-2/files-2.1/5a8c21f587791771b5bcc76dd9e8a6ad/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/ce29b904d7966e4354a2613a332325f2/lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/b3318ce1dfa4381b35e650d2db949f2b/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/a74b4a2c38ad7461f10da1f94b201eef/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/1d65d41a8331e89add0952666884b193/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/32090a70ae467abfb0418678db9fe256/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/shalil/.gradle/caches/transforms-2/files-2.1/15db15a3fae93296a5fa5db57be16c63/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite:2.0.1] /home/shalil/.gradle/caches/transforms-2/files-2.1/5a8c21f587791771b5bcc76dd9e8a6ad/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/9c928c3b9ee0926e0c2c991ff0b06e3a/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/d714167f9c477f4e25705f01b9b44295/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/903af4218d22a1a0260117256f564a18/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
@@ -55,29 +61,39 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/shalil/.gradle/cach
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/0e745900990751dca1327e9b70d875bf/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/bdcaee3cdfb1c3bf8678b07143c57596/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/606287ff4c42467b755694bc426fffc1/print-1.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:1:1-23:12
-INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:1:1-23:12
-INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:2:1-49:12
 	package
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:2:5-38
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml
 		INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:1:1-23:12
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:2:1-49:12
 		INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:1:1-23:12
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:2:1-49:12
 		INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:1:11-69
-uses-permission#android.permission.INTERNET
-ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:4:5-67
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:11:22-64
 application
-ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:6:5-22:19
+ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:13:5-47:19
 MERGED from [com.google.android.material:material:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/97827bbc88ad86d34825d230fa90e833/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/97827bbc88ad86d34825d230fa90e833/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/shalil/.gradle/caches/transforms-2/files-2.1/e39e61986e6f06be3a3b387cd09bbd97/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
@@ -90,46 +106,74 @@ MERGED from [androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/trans
 MERGED from [androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:29:5-123:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/cd275276c7b9618fea1e939d5bab092d/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/cd275276c7b9618fea1e939d5bab092d/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/b3b927e30cc441962d93ebce5f7c17f8/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/b3b927e30cc441962d93ebce5f7c17f8/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dd782446ff39286a4595c52f584c49ec/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dd782446ff39286a4595c52f584c49ec/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/942d35076b030d1bdc791f3b95fc9dde/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/942d35076b030d1bdc791f3b95fc9dde/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dabcfb073d07f33e545aa9597e39e7ee/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dabcfb073d07f33e545aa9597e39e7ee/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/5076d1abff6c66fd00a8ca439cbc4efd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/5076d1abff6c66fd00a8ca439cbc4efd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/ae0c614d4894f88cefee255652777001/core-1.1.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/ae0c614d4894f88cefee255652777001/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/a74b4a2c38ad7461f10da1f94b201eef/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/a74b4a2c38ad7461f10da1f94b201eef/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.room:room-runtime:2.2.2] /home/shalil/.gradle/caches/transforms-2/files-2.1/af3eaafc4144a8d288e05f5dcbd5a02b/room-runtime-2.2.2/AndroidManifest.xml:24:5-28:19
 MERGED from [androidx.room:room-runtime:2.2.2] /home/shalil/.gradle/caches/transforms-2/files-2.1/af3eaafc4144a8d288e05f5dcbd5a02b/room-runtime-2.2.2/AndroidManifest.xml:24:5-28:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/a74b4a2c38ad7461f10da1f94b201eef/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/a74b4a2c38ad7461f10da1f94b201eef/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/ae0c614d4894f88cefee255652777001/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:16:9-43
 	android:icon
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:19:9-40
+	android:logo
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:17:9-38
 	android:usesCleartextTraffic
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:8:9-44
-activity#com.univ_amu.localizcci.ui.MainActivity
-ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:13:9-21:20
-	android:screenOrientation
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:14:13-49
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:20:9-44
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:29:9-31:55
+	android:value
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:31:13-52
+	android:name
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:30:13-58
+activity#com.univ_amu.localizcci.ui.MapFragment
+ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:33:9-35:67
 	android:label
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:16:13-47
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:35:13-64
 	android:name
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:15:13-44
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:34:13-43
+activity#com.univ_amu.localizcci.ui.MainActivity
+ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:36:9-46:20
+	android:screenOrientation
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:40:13-51
+	android:label
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:38:13-47
+	android:logo
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:39:13-42
+	android:name
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:37:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:17:13-20:29
+ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:41:13-45:29
 action#android.intent.action.MAIN
-ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:42:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml:44:27-74
 uses-sdk
 INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/src/main/AndroidManifest.xml
@@ -158,6 +202,18 @@ MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/shalil/.gradle
 MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/0c5e9f98848a73401d80fdee53817f4e/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/cd275276c7b9618fea1e939d5bab092d/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/cd275276c7b9618fea1e939d5bab092d/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/b3b927e30cc441962d93ebce5f7c17f8/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/b3b927e30cc441962d93ebce5f7c17f8/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dd782446ff39286a4595c52f584c49ec/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dd782446ff39286a4595c52f584c49ec/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/942d35076b030d1bdc791f3b95fc9dde/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/942d35076b030d1bdc791f3b95fc9dde/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dabcfb073d07f33e545aa9597e39e7ee/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dabcfb073d07f33e545aa9597e39e7ee/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/5076d1abff6c66fd00a8ca439cbc4efd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/5076d1abff6c66fd00a8ca439cbc4efd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/34212ccd385d8c2562c11752d5696815/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/34212ccd385d8c2562c11752d5696815/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/47001396a60a1af13a3865ef1d0b1a3b/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -200,24 +256,24 @@ MERGED from [androidx.navigation:navigation-common:2.1.0] /home/shalil/.gradle/c
 MERGED from [androidx.navigation:navigation-common:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/663cde38ada4487b2275bb86dc98929c/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/ae0c614d4894f88cefee255652777001/core-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/ae0c614d4894f88cefee255652777001/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/1d65d41a8331e89add0952666884b193/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/1d65d41a8331e89add0952666884b193/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/32090a70ae467abfb0418678db9fe256/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/32090a70ae467abfb0418678db9fe256/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/a74b4a2c38ad7461f10da1f94b201eef/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/a74b4a2c38ad7461f10da1f94b201eef/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.2.2] /home/shalil/.gradle/caches/transforms-2/files-2.1/af3eaafc4144a8d288e05f5dcbd5a02b/room-runtime-2.2.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.2.2] /home/shalil/.gradle/caches/transforms-2/files-2.1/af3eaafc4144a8d288e05f5dcbd5a02b/room-runtime-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/shalil/.gradle/caches/transforms-2/files-2.1/15db15a3fae93296a5fa5db57be16c63/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/shalil/.gradle/caches/transforms-2/files-2.1/15db15a3fae93296a5fa5db57be16c63/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/shalil/.gradle/caches/transforms-2/files-2.1/5a8c21f587791771b5bcc76dd9e8a6ad/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/shalil/.gradle/caches/transforms-2/files-2.1/5a8c21f587791771b5bcc76dd9e8a6ad/sqlite-2.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/39d544d972eb81df619f6f1ee098da1c/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/ce29b904d7966e4354a2613a332325f2/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/ce29b904d7966e4354a2613a332325f2/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/b3318ce1dfa4381b35e650d2db949f2b/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/b3318ce1dfa4381b35e650d2db949f2b/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/a74b4a2c38ad7461f10da1f94b201eef/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/a74b4a2c38ad7461f10da1f94b201eef/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/1d65d41a8331e89add0952666884b193/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/1d65d41a8331e89add0952666884b193/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/32090a70ae467abfb0418678db9fe256/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/32090a70ae467abfb0418678db9fe256/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/shalil/.gradle/caches/transforms-2/files-2.1/15db15a3fae93296a5fa5db57be16c63/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/shalil/.gradle/caches/transforms-2/files-2.1/15db15a3fae93296a5fa5db57be16c63/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.1] /home/shalil/.gradle/caches/transforms-2/files-2.1/5a8c21f587791771b5bcc76dd9e8a6ad/sqlite-2.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.1] /home/shalil/.gradle/caches/transforms-2/files-2.1/5a8c21f587791771b5bcc76dd9e8a6ad/sqlite-2.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/9c928c3b9ee0926e0c2c991ff0b06e3a/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/9c928c3b9ee0926e0c2c991ff0b06e3a/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/d714167f9c477f4e25705f01b9b44295/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
@@ -252,6 +308,8 @@ ADDED from [androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transf
 		ADDED from [androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:25:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:5-79
 	android:name
 		ADDED from [androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:26:22-76
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
@@ -438,6 +496,32 @@ action#androidx.work.impl.background.systemalarm.UpdateProxies
 ADDED from [androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:120:17-98
 	android:name
 		ADDED from [androidx.work:work-runtime:2.2.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/fba0d14f598295f1f1d8414451b492d9/work-runtime-2.2.0/AndroidManifest.xml:120:25-95
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/70e387945cccf90748e8a5ad4d9e78f5/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dd782446ff39286a4595c52f584c49ec/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dd782446ff39286a4595c52f584c49ec/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dd782446ff39286a4595c52f584c49ec/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/dd782446ff39286a4595c52f584c49ec/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/5076d1abff6c66fd00a8ca439cbc4efd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/5076d1abff6c66fd00a8ca439cbc4efd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/shalil/.gradle/caches/transforms-2/files-2.1/5076d1abff6c66fd00a8ca439cbc4efd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.2.2] /home/shalil/.gradle/caches/transforms-2/files-2.1/af3eaafc4144a8d288e05f5dcbd5a02b/room-runtime-2.2.2/AndroidManifest.xml:25:9-27:40
 	android:exported

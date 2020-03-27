@@ -4,7 +4,6 @@ package com.univ_amu.localizcci.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -23,18 +22,14 @@ public abstract class CategoryDescriptionBinding extends ViewDataBinding {
   @NonNull
   public final TextView categoryName;
 
-  @NonNull
-  public final ImageView imgcat;
-
   @Bindable
   protected Category mCategory;
 
   protected CategoryDescriptionBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      TextView categoryDescription, TextView categoryName, ImageView imgcat) {
+      TextView categoryDescription, TextView categoryName) {
     super(_bindingComponent, _root, _localFieldCount);
     this.categoryDescription = categoryDescription;
     this.categoryName = categoryName;
-    this.imgcat = imgcat;
   }
 
   public abstract void setCategory(@Nullable Category category);

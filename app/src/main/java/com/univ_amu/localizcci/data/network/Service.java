@@ -11,13 +11,13 @@ import retrofit2.http.Path;
 
 public interface Service {
     @GET("/spot/{id}")
-    Call<NetworkSpot> getSpot(@Path("id") int id);
+    Call<NetworkSpot> getSpot(@Path("id") Integer id);
 
     @GET("/spots/{categoryId}")
-    Call<List<NetworkSpot>>  getSpots(@Path("categoryId") int categoryId);
+    Call<List<NetworkSpot>>  getSpots(@Path("categoryId") Integer categoryId);
 
     @GET("/category/{id}")
-    Call<NetworkCategory> getCategory(@Path("id") int id);
+    Call<NetworkCategory> getCategory(@Path("id") Integer id);
 
     /*
     @GET("/search/{query}")

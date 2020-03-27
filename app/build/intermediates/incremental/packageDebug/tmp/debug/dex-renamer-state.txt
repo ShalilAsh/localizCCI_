@@ -1,4 +1,4 @@
-#Mon Mar 23 17:47:11 CET 2020
+#Fri Mar 27 19:39:29 CET 2020
 base.0=/home/shalil/Desktop/AndroidProjects/LocalizCCI_0.0.2/LocalizCCI/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

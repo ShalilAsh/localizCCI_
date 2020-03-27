@@ -30,7 +30,8 @@
 
         <TextView
             android:text="@{viewHolder.spot.name}"
-            android:padding="16dp"
+            android:id="@+id/spotname"
+            android:padding="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
@@ -38,6 +39,16 @@
             android:textStyle="bold"
             />
 
+        <TextView
+            android:text="@{viewHolder.spot.gps}"
+            android:id="@+id/gps"
+            android:layout_below="@+id/spotname"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            />
 
 
     </RelativeLayout>

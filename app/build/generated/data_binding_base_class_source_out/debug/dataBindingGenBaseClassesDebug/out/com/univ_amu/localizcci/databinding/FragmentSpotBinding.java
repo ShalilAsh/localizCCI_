@@ -17,15 +17,15 @@ import java.lang.Object;
 
 public abstract class FragmentSpotBinding extends ViewDataBinding {
   @NonNull
-  public final CardView spotDescription;
+  public final CardView spotFragment;
 
   @Bindable
   protected SpotViewModel mModel;
 
   protected FragmentSpotBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      CardView spotDescription) {
+      CardView spotFragment) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.spotDescription = spotDescription;
+    this.spotFragment = spotFragment;
   }
 
   public abstract void setModel(@Nullable SpotViewModel model);

@@ -41,4 +41,14 @@ public class SpotListViewModel extends AndroidViewModel {
     }
 
 
+
+
+
+    //  New methode :  use downloadSpot in categoryList Fragment :
+
+    public void downloadSpot(Integer id) {
+        repository.downloadSpot(id);
+    }
+
+
 }

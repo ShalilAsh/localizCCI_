@@ -1,5 +1,7 @@
 package com.univ_amu.localizcci.data;
 
+import android.location.Location;
+
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
@@ -25,19 +27,30 @@ public class Spot {
 
     @NonNull
     public Integer categoryId;
-
-
     public Integer id;
     @NonNull
-    private String name;
+    public String name;
     public Date date;
+    public   String descriptionSpot;
+    public double gps_altitude;
+    public double gps_longitude;
+    public String gps;
 
 
-    public Spot( Integer categoryId,Integer id, String name, Date date){
+    //private  int imgSpotId;
+
+
+
+    public Spot( Integer categoryId,Integer id, String name, Date date, String descriptionSpot,double gps_altitude, double gps_longitude){
         this.categoryId= categoryId;
         this.id = id;
         this.name = name;
         this.date = date;
+        this.descriptionSpot=descriptionSpot;
+        this.gps_altitude = gps_altitude;
+        this.gps_longitude=gps_longitude;
+        this.gps = " Coordonnées GPS : " +String.valueOf(gps_altitude)+" , " + String.valueOf(gps_longitude);
+        //this.imgSpotId=imgSpotId;
     };
 
     public Integer getCategoryId() {
@@ -49,5 +62,26 @@ public class Spot {
     @NonNull
     public String getName() {return name;}
 
+
     public Date getDate() {return date;}
+
+    public String getDescriptionSpot() {
+        return descriptionSpot;
+    }
+
+    public double getGps_altitude() {
+        return gps_altitude;
+    }
+
+    public double getGps_longitude() {
+        return gps_longitude;
+    }
+
+    public String getGps() {
+        return gps;
+    }
+
+    public void setGps(double altitude , double longitude) {
+        this.gps = " Coordonnées GPS : " +String.valueOf(gps_altitude)+" , " + String.valueOf(gps_longitude);
+    }
 }

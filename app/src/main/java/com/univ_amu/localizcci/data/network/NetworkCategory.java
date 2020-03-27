@@ -12,8 +12,6 @@ public class NetworkCategory {
     @NonNull
     @Override
     public String toString() {
-
-
         return "NetworkCategory {" +
                 "Id='" + id + '\'' +
                 " , Name='" + name + '\'' +

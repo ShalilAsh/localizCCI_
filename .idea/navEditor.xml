@@ -8,17 +8,51 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
+                  <entry key="Formulaire">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="14" />
+                            <option name="y" value="-437" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="MapFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="497" />
+                            <option name="y" value="-594" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="categoryList">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-51" />
-                            <option name="y" value="22" />
+                            <option name="x" value="-157" />
+                            <option name="y" value="-1068" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_categoryList_to_Formulaiare">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_categoryList_to_MapFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_categoryList_to_spotList">
                               <value>
                                 <LayoutPositions />
@@ -34,8 +68,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="467" />
-                            <option name="y" value="81" />
+                            <option name="x" value="1154" />
+                            <option name="y" value="-1026" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -46,8 +80,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="210" />
-                            <option name="y" value="-93" />
+                            <option name="x" value="484" />
+                            <option name="y" value="-1039" />
                           </Point>
                         </option>
                         <option name="myPositions">

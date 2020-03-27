@@ -13,11 +13,9 @@
             android:src="@{category.imgid}"
             android:layout_width="200dp"
             android:layout_height="120dp"
-            android:scaleType="centerCrop"
             android:layout_weight = "0.11"
             android:layout_marginEnd="5dp"
             android:paddingEnd="@android:dimen/app_icon_size"
-            android:id="@+id/imgcat"
             />
 
         <TextView
@@ -48,6 +46,11 @@
             android:textSize="18dp"
             android:textStyle="bold"
             />
+
+
+
+
+
 
 
     </merge>

@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.univ_amu.localizcci.data.Category;
 import com.univ_amu.localizcci.data.Repository;
+import com.univ_amu.localizcci.data.Spot;
 import com.univ_amu.localizcci.databinding.FragmentCategoryBinding;
 import com.univ_amu.localizcci.databinding.FragmentCategoryListBinding;
 import com.univ_amu.localizcci.ui.CategoryListAdapter;
@@ -25,14 +26,17 @@ import com.univ_amu.localizcci.viewmodels.CategoryListViewModel;
 public class CategoryListFragment extends Fragment {
 
     FragmentCategoryListBinding binding;
+    CategoryListViewModel model;
 
     public View onCreateView( LayoutInflater inflater,  ViewGroup container,  Bundle savedInstanceState) {
 
        binding = FragmentCategoryListBinding.inflate(inflater,container ,false);
 
         // changer du nom : SpotListModelView
-        CategoryListViewModel model = ViewModelProviders.of(this).get(CategoryListViewModel.class);
+        model = ViewModelProviders.of(this).get(CategoryListViewModel.class);
         binding.setModel(model);
+
+
 
         CategoryListAdapter categoryListAdapter = new CategoryListAdapter();
         binding.setLifecycleOwner(this);
@@ -58,10 +62,30 @@ public class CategoryListFragment extends Fragment {
 
     private void onCategory(Category category) {
         NavDirections action = CategoryListFragmentDirections.actionCategoryListToSpotList(category.getId());
+        //Navigation.findNavController(getView()).navigate(action); // modif
+        Navigation.findNavController(binding.getRoot()).navigate(action);
+
+    }
+
+    /*
+
+    private void onMap(View view) {
+        NavDirections action = CategoryListFragmentDirections.actionCategoryListToMapFragment();
         Navigation.findNavController(getView()).navigate(action); // modif
         //Navigation.findNavController(binding.getRoot()).navigate(action);
 
     }
+
+    */
+
+
+    /*
+     private void onSpot(Spot spot) {
+        model.downloadSpot(spot.id);
+        NavDirections action = CategoryListFragmentDirections.actionCategoryListToSpot(spot.getId());
+        Navigation.findNavController(getView()).navigate(action);
+    }
+     */
 
 
 }

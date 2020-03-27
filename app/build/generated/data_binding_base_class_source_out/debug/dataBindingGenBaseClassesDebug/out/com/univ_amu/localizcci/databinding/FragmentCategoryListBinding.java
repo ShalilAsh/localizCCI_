@@ -10,6 +10,7 @@ import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.RecyclerView;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.univ_amu.localizcci.R;
 import com.univ_amu.localizcci.viewmodels.CategoryListViewModel;
 import java.lang.Deprecated;
@@ -17,14 +18,18 @@ import java.lang.Object;
 
 public abstract class FragmentCategoryListBinding extends ViewDataBinding {
   @NonNull
+  public final BottomNavigationView bottomNavigation;
+
+  @NonNull
   public final RecyclerView categoryList;
 
   @Bindable
   protected CategoryListViewModel mModel;
 
   protected FragmentCategoryListBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      RecyclerView categoryList) {
+      BottomNavigationView bottomNavigation, RecyclerView categoryList) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.bottomNavigation = bottomNavigation;
     this.categoryList = categoryList;
   }
 

@@ -2,6 +2,7 @@ package com.univ_amu.localizcci.ui;
 
 import android.os.Bundle;
 import androidx.annotation.NonNull;
+import androidx.navigation.ActionOnlyNavDirections;
 import androidx.navigation.NavDirections;
 import com.univ_amu.localizcci.R;
 import java.lang.Object;
@@ -17,6 +18,16 @@ public class CategoryListFragmentDirections {
   @NonNull
   public static ActionCategoryListToSpotList actionCategoryListToSpotList(int id) {
     return new ActionCategoryListToSpotList(id);
+  }
+
+  @NonNull
+  public static NavDirections actionCategoryListToMapFragment() {
+    return new ActionOnlyNavDirections(R.id.action_categoryList_to_MapFragment);
+  }
+
+  @NonNull
+  public static NavDirections actionCategoryListToFormulaiare() {
+    return new ActionOnlyNavDirections(R.id.action_categoryList_to_Formulaiare);
   }
 
   public static class ActionCategoryListToSpotList implements NavDirections {

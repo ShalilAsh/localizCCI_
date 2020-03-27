@@ -21,13 +21,11 @@ public class SpotFragment extends Fragment {
         Integer id = SpotListFragmentArgs.fromBundle(getArguments()).getId();//******
 
         //Log.d("SpotListFragment : ", "CategoryId = "+id);
-
         SpotViewModel model = ViewModelProviders.of(this,
                 new SpotViewModelFactory(getActivity().getApplication(), id)).get(SpotViewModel.class);
 
         binding.setLifecycleOwner(this);
         binding.setModel(model);// creation model dans le layout fragmentspotlist.xml
-
 
         //Log.d("SpotListFragment : ", ""+spots.size());
 
