@@ -30,6 +30,11 @@ public class CategoryListFragmentDirections {
     return new ActionOnlyNavDirections(R.id.action_categoryList_to_Formulaiare);
   }
 
+  @NonNull
+  public static NavDirections actionCategoryListToFormulaireFragment() {
+    return new ActionOnlyNavDirections(R.id.action_categoryList_to_FormulaireFragment);
+  }
+
   public static class ActionCategoryListToSpotList implements NavDirections {
     private final HashMap arguments = new HashMap();
 

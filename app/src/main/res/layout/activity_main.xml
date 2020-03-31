@@ -2,6 +2,15 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <!--<data>
+        <variable
+            name="temp"
+            type="com.univ_amu.localizcci.ui.Formulaire" />
+        <variable
+            name="presenter"
+            type="com.univ_amu.localizcci.ui.MainActivity"/>
+    </data> -->
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,6 +24,13 @@
             app:navGraph="@navigation/navigation"
             app:defaultNavHost="true"
             />
+
+        <!--<Button
+            android:text="Show data model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> presenter.OnShaow(temp)}"
+            android:id="@+id/button" /> -->
 
 
     </LinearLayout>

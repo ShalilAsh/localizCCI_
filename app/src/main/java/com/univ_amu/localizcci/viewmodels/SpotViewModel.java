@@ -5,6 +5,7 @@ import android.app.Application;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.squareup.picasso.Picasso;
 import com.univ_amu.localizcci.data.Repository;
 import com.univ_amu.localizcci.data.Spot;
 
@@ -18,6 +19,7 @@ public class SpotViewModel  extends ViewModel {
     public SpotViewModel(Application application, Integer spotId) {
         this.repository = new Repository(application);
         this.spot = repository.getSpot(spotId);
+
 
     }
 

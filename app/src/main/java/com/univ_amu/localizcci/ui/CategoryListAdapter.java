@@ -62,10 +62,6 @@ public class CategoryListAdapter extends ListAdapter <Category, CategoryListAdap
         }
 
 
-
-
-
-
     }
 
 

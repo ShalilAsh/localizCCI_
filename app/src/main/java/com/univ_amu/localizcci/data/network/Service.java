@@ -6,7 +6,9 @@ package com.univ_amu.localizcci.data.network;
 import java.util.List;
 
 import retrofit2.Call;
+import retrofit2.http.Field;
 import retrofit2.http.GET;
+import retrofit2.http.POST;
 import retrofit2.http.Path;
 
 public interface Service {
@@ -16,9 +18,14 @@ public interface Service {
     @GET("/spots/{categoryId}")
     Call<List<NetworkSpot>>  getSpots(@Path("categoryId") Integer categoryId);
 
-    @GET("/category/{id}")
-    Call<NetworkCategory> getCategory(@Path("id") Integer id);
+    @GET("/categories")
+    Call<List<NetworkCategory>> getCategories();
 
+    /*
+    @POST("/add_spot")
+    Call<NetworkSpot> addSpot(@Field("name") String name,@Field("description") String description);
+
+     */
     /*
     @GET("/search/{query}")
     Call<List<NetworkSpot>> searchSpot(@Path("query")String query); */

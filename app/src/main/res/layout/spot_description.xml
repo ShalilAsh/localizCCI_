@@ -34,7 +34,7 @@
             <TextView
                 android:text="@{spot.date.toString()}"
                 android:id="@+id/date"
-                android:padding="16dp"
+                android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingEnd="5dp"
@@ -49,6 +49,7 @@
             <TextView
                 android:text="@{spot.gps}"
                 android:id="@+id/gps"
+                android:padding="10dp"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/date"
                 android:textSize="18dp"
@@ -66,22 +67,22 @@
                 android:textSize="18dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
-                />
-
-
-
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="bold"/>
 
             <ImageView
                 android:id="@+id/imgSpot"
-                android:layout_width="100dp"
-                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
                 android:layout_below="@+id/Spot_description"
                 android:layout_weight="0.11"
-                android:paddingEnd="@android:dimen/app_icon_size"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/logo" />
+                android:urlLoad="@{spot.urlImage}" />
+
+                />
 
         </RelativeLayout>
 

@@ -1,7 +1,13 @@
 package com.univ_amu.localizcci.data;
 
 
+import android.view.View;
+import android.widget.ImageView;
+
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
+import androidx.databinding.Bindable;
+import androidx.databinding.BindingAdapter;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.Index;
@@ -23,7 +29,6 @@ public class Category {
 
     @NonNull
     public String description;
-
     public int imgid;
 
     public Category(Integer id ,String name, String description, Integer imgid) {
@@ -44,4 +49,15 @@ public class Category {
 
     @NonNull
     public String getDescription() {return description;}
+
+    // important : load the pics of categories !!!
+
+
+
+    @BindingAdapter("android:imageLoad")// important to use in the layout (category_item : imageview )
+    public static void loadImage(View view, int imgid ){
+
+        ImageView v = (ImageView) view;
+        v.setImageDrawable(ContextCompat.getDrawable(view.getContext(),imgid));
+    }
 }

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- important line to generate the calss binding -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    <merge>
+
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/TextViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="20dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:textColor="@android:color/background_dark"
+                    android:text="@string/formulaire_title"
+                    android:textSize="12pt">
+
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/SpinnerChoixType"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scrollbarSize="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:prompt="@string/choisir_ville"
+                    android:layout_width="fill_parent"
+                    android:entries="@array/choixlst">
+                </Spinner>
+
+
+
+                <EditText
+                    android:id="@+id/nomSoptF"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_dark"
+                    android:hint="@string/NomSpot"
+                    android:inputType="textPersonName"
+                    android:paddingBottom="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="fill_parent">
+                </EditText>
+
+                <Spinner
+                    android:id="@+id/SpinnerCategory"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scrollbarSize="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:textAlignment="center"
+                    android:prompt="@string/choisir_category"
+                    android:layout_width="fill_parent"
+                    android:entries="@array/category_lst">
+                </Spinner>
+
+
+
+                <EditText
+                    android:id="@+id/DescriptionF"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_dark"
+                    android:hint="@string/description_spot"
+                    android:inputType="textMultiLine"
+                    android:lines="5"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:layout_width="fill_parent">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/GpsF"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Gps"
+                    android:inputType="textMultiLine"
+                    android:paddingBottom="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="fill_parent">
+                </EditText>
+
+                <CheckBox
+                    android:id="@+id/CheckBoxResponseF"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_dark"
+                    android:text="@string/feedbackresponse"
+                    android:layout_marginBottom="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="fill_parent">
+                </CheckBox>
+
+                <Button
+                    android:id="@+id/ButtonSendF"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_height="wrap_content"
+                    android:text="@string/envoyerbutton"
+                    android:onClick="envoyer"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:background="@color/colorAccent"
+                    android:layout_width="fill_parent">
+                </Button>
+
+            </LinearLayout>
+
+    </merge>
+
+
+</layout>

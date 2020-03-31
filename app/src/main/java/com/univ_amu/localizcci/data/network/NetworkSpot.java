@@ -2,8 +2,6 @@ package com.univ_amu.localizcci.data.network;
 
 import androidx.annotation.NonNull;
 
-import com.univ_amu.localizcci.data.Gps;
-
 import java.util.Date;
 
 public class NetworkSpot {
@@ -14,6 +12,7 @@ public class NetworkSpot {
     public String descriptionSpot;
     public double gps_altitude;
     public double gps_longitude;
+    public String url;
 
     @NonNull
     @Override
@@ -26,6 +25,7 @@ public class NetworkSpot {
                 " , descriptionSpot='" + descriptionSpot + '\'' +
                 " , gps_altitude='" + gps_altitude + '\'' +
                 " , gps_longitude='" + gps_longitude + '\'' +
+                " , url='" + url + '\'' +
 
                 "}";
     }

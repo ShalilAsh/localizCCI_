@@ -1,140 +1,134 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.MapFragment">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
 
-    <ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/ScrollView01"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_light"
-    android:padding="30dp"
-    android:paddingTop="30dp"
-    android:scrollbars="vertical">
+    </data>
 
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="fill_parent">
+        android:layout_height="match_parent"
+        tools:context=".ui.MapFragment">
 
-        <TextView
-            android:id="@+id/TextViewTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingTop="15dp"
-            android:paddingBottom="20dp"
-            android:layout_marginBottom="10dp"
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ScrollView01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_light"
+            android:padding="30dp"
+            android:paddingTop="30dp"
+            android:scrollbars="vertical">
 
-            android:textColor="@android:color/background_dark"
-            android:text="@string/formulaire_title"
-            android:textSize="12pt">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="fill_parent">
 
-        </TextView>
+                <TextView
+                    android:id="@+id/TextViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="20dp"
+                    android:layout_marginBottom="10dp"
 
-        <Spinner
-            android:id="@+id/SpinnerChoixType"
-            android:textColor="@android:color/background_dark"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:scrollbarSize="15dp"
-            android:paddingTop="5dp"
-            android:paddingBottom="5dp"
-            android:layout_marginBottom="10dp"
-            android:textAlignment="center"
-            android:prompt="@string/choisir_ville"
-            android:layout_width="fill_parent"
-            android:entries="@array/choixlst">
-        </Spinner>
+                    android:textColor="@android:color/background_dark"
+                    android:text="@string/formulaire_title"
+                    android:textSize="12pt">
 
+                </TextView>
 
-
-        <EditText
-            android:id="@+id/EditTextName"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/background_dark"
-            android:hint="@string/NomSpot"
-            android:inputType="textPersonName"
-            android:paddingBottom="5dp"
-            android:layout_marginBottom="10dp"
-            android:layout_width="fill_parent">
-        </EditText>
-
-        <Spinner
-            android:id="@+id/SpinnerCategory"
-            android:textColor="@android:color/background_dark"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:scrollbarSize="15dp"
-            android:paddingTop="5dp"
-            android:paddingBottom="5dp"
-            android:layout_marginBottom="10dp"
-
-            android:textAlignment="center"
-            android:prompt="@string/choisir_category"
-            android:layout_width="fill_parent"
-            android:entries="@array/category_lst">
-        </Spinner>
+                <Spinner
+                    android:id="@+id/SpinnerChoixType"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scrollbarSize="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:prompt="@string/choisir_ville"
+                    android:layout_width="fill_parent"
+                    android:entries="@array/choixlst"></Spinner>
 
 
+                <EditText
+                    android:id="@+id/EditTextName"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_dark"
+                    android:hint="@string/NomSpot"
+                    android:inputType="textPersonName"
+                    android:paddingBottom="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="fill_parent"></EditText>
 
-        <EditText
-            android:id="@+id/EditTextFeedbackBody"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/background_dark"
-            android:hint="@string/description_spot"
-            android:inputType="textMultiLine"
-            android:lines="5"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:layout_marginBottom="10dp"
+                <Spinner
+                    android:id="@+id/SpinnerCategory"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scrollbarSize="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_marginBottom="10dp"
 
-            android:layout_width="fill_parent">
-        </EditText>
-
-        <EditText
-            android:id="@+id/EditTextGps"
-            android:textColor="@android:color/background_dark"
-            android:layout_height="wrap_content"
-            android:hint="@string/Gps"
-            android:inputType="textMultiLine"
-            android:paddingBottom="5dp"
-            android:layout_marginBottom="10dp"
-            android:layout_width="fill_parent">
-        </EditText>
-
+                    android:textAlignment="center"
+                    android:prompt="@string/choisir_category"
+                    android:layout_width="fill_parent"
+                    android:entries="@array/category_lst"></Spinner>
 
 
+                <EditText
+                    android:id="@+id/EditTextFeedbackBody"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_dark"
+                    android:hint="@string/description_spot"
+                    android:inputType="textMultiLine"
+                    android:lines="5"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginBottom="10dp"
 
-        <CheckBox
-            android:id="@+id/CheckBoxResponse"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/background_dark"
-            android:text="@string/feedbackresponse"
-            android:layout_marginBottom="10dp"
-            android:paddingBottom="10dp"
-            android:layout_width="fill_parent">
-        </CheckBox>
+                    android:layout_width="fill_parent"></EditText>
 
-        <Button
-            android:id="@+id/ButtonSendFeedback"
-            android:layout_gravity="center"
-            android:textColor="@android:color/background_dark"
-            android:layout_height="wrap_content"
-            android:text="@string/envoyerbutton"
-            android:onClick="envoyer"
-            android:textStyle="bold"
-            android:textSize="15dp"
-            android:layout_marginBottom="10dp"
-            android:paddingBottom="10dp"
-            android:paddingTop="20dp"
-            android:background="@color/colorAccent"
-            android:layout_width="fill_parent">
-        </Button>
+                <EditText
+                    android:id="@+id/EditTextGps"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Gps"
+                    android:inputType="textMultiLine"
+                    android:paddingBottom="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="fill_parent"></EditText>
 
-    </LinearLayout>
-</ScrollView>
 
-</FrameLayout>
+                <CheckBox
+                    android:id="@+id/CheckBoxResponse"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/background_dark"
+                    android:text="@string/feedbackresponse"
+                    android:layout_marginBottom="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="fill_parent"></CheckBox>
+
+                <Button
+                    android:id="@+id/ButtonSendFeedback"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_height="wrap_content"
+                    android:text="@string/envoyerbutton"
+                    android:onClick="fgdfdg"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:background="@color/colorAccent"
+                    android:layout_width="fill_parent"></Button>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </FrameLayout>
+</layout>

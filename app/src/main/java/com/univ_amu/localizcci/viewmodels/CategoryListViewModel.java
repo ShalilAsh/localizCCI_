@@ -1,22 +1,17 @@
 package com.univ_amu.localizcci.viewmodels;
 
 import android.app.Application;
-import android.util.Log;
 import android.view.View;
-import android.widget.Toolbar;
 
-import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.navigation.NavDirections;
 import androidx.navigation.Navigation;
 
-import com.univ_amu.localizcci.R;
 import com.univ_amu.localizcci.data.Category;
 import com.univ_amu.localizcci.data.Repository;
 import com.univ_amu.localizcci.databinding.ActivityMainBinding;
 import com.univ_amu.localizcci.ui.CategoryListFragmentDirections;
-import com.univ_amu.localizcci.ui.MainActivity;
 
 import java.util.List;
 
@@ -56,12 +51,9 @@ public class CategoryListViewModel extends AndroidViewModel {
     }
 
     public void onAdd(View view) {
-        //binding = (ActivityMainBinding) DataBindingUtil.setContentView(this, R.layout.formulaire_activity);
-        //NavDirections action = CategoryListFragmentDirections.actionCategoryListToFormulaiare();
-        //Navigation.findNavController().navigate(action);
+        NavDirections action = CategoryListFragmentDirections.actionCategoryListToFormulaireFragment();
+        Navigation.findNavController(view).navigate(action);
     }
-
-
 
 
     //  New methode :  use downloadSpot in categoryList Fragment :

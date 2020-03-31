@@ -21,6 +21,11 @@
             android:id="@+id/action_categoryList_to_Formulaiare"
             app:destination="@id/Formulaire" />
 
+        <action
+            android:id="@+id/action_categoryList_to_FormulaireFragment"
+            app:destination="@id/FormulaireFragment" />
+
+
 
     </fragment>
 
@@ -64,6 +69,19 @@
         android:label="@string/localizcci">
 
     </fragment>
+
+
+    <fragment
+        android:id="@+id/FormulaireFragment"
+        android:name="com.univ_amu.localizcci.ui.FormulaireFragment"
+        android:label="@string/localizcci">
+
+        <action
+            android:id="@+id/action_FormulaireFragment_to_spot"
+            app:destination="@id/spot" />
+
+    </fragment>
+
 
 
 

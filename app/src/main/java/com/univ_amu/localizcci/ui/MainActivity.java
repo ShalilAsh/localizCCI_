@@ -1,5 +1,6 @@
 package com.univ_amu.localizcci.ui;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,14 +14,11 @@ import androidx.databinding.DataBindingUtil;
 import com.univ_amu.localizcci.R;
 import com.univ_amu.localizcci.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  {
+
 
     private ActivityMainBinding binding;
     Toolbar toolbar;
-
-
-
-
     Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,8 +27,7 @@ public class MainActivity extends AppCompatActivity {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         //binding = DataBindingUtil.setContentView(this, R.layout.formulaire_activity);
 
-
-
     }
+
 }
 

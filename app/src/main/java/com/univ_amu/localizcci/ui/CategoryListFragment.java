@@ -62,8 +62,8 @@ public class CategoryListFragment extends Fragment {
 
     private void onCategory(Category category) {
         NavDirections action = CategoryListFragmentDirections.actionCategoryListToSpotList(category.getId());
-        //Navigation.findNavController(getView()).navigate(action); // modif
-        Navigation.findNavController(binding.getRoot()).navigate(action);
+        Navigation.findNavController(getView()).navigate(action); // modif
+        //Navigation.findNavController(binding.getRoot()).navigate(action);
 
     }
 
